@@ -1,0 +1,13 @@
+<script src="/frontend/vendor/jquery/jquery.min.js"></script>
+<script src="/frontend/vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="/frontend/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="/frontend/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+<script src="/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/frontend/vendor/lazysizes/lazysizes.min.js"></script>
+<script src="/frontend/vendor/isotope/jquery.isotope.min.js"></script>
+<script src="/frontend/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="/frontend/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/frontend/vendor/vide/jquery.vide.min.js"></script>
+<script src="/frontend/vendor/vivus/vivus.min.js"></script>
+<script src="/frontend/js/theme.js"></script>
+<script src="/frontend/js/theme.init.js"></script>
