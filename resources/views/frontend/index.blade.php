@@ -68,7 +68,6 @@
         </div>
     </section>
 
-
     @include('frontend.layout.uyeol')
 
     <section class="section my-0 border-0 mt-2">
@@ -93,7 +92,9 @@
                                     </span>
                                 <h4 class="font-weight-bold mt-4">{{ $item->title }}</h4>
 
-                                <a href="/kongre-detay?name=8. Ulusal Kongre" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Gör <i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('kongredetay', $item->slug) }}" title="{{ $item->title }}" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">
+                                    Devamını Gör <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
                             </div>
                             @endforeach
 

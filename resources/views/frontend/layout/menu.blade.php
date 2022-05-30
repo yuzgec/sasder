@@ -61,7 +61,7 @@
             <ul class="dropdown-menu">
                 @foreach($Project as $item)
                     <li>
-                        <a class="dropdown-item" href="{{ route('kongredetay', $item->slug) }}">
+                        <a class="dropdown-item" href="{{ route('kongredetay', $item->slug) }}" title="{{ $item->title }}">
                             {{ $item->title }}
                         </a>
                     </li>
