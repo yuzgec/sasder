@@ -30,8 +30,7 @@ class ViewShareProvider extends ServiceProvider
             config()->set('settings', Setting::pluck('value','item')->all());
             $Pages = Cache::remember('pages',now()->addYear(1), function () {return Page::with('getCategory')->get();});
             $Page_Categories = Cache::remember('page_categories',now()->addYear(1), function () {return PageCategory::all(); });
-            $Project = Cache::remember('project',now()->addYear(1), function () {return Project::all(); });
-
+            $Project = Cache::remember('project',now()->addYear(1), function () { return Project::where('status',1)->orderBy('rank','desc')->get(); });
 
             View::share([
                 'Pages' => $Pages,
