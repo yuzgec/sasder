@@ -1,5 +1,5 @@
 @extends('backend.layout.app')
-@section('title', 'Sayfa Listele')
+@section('title', 'Etkinlik Listele')
 @section('content')
     <div class="col-12 col-md-8">
         <div class="card">
@@ -7,7 +7,7 @@
                 <div>
                     <h4 class="card-title">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                        Sayfa Listesi [{{ $All->count() }}]
+                        Etkinlik Listesi [{{ $All->count() }}]
                     </h4>
                 </div>
                 <div class="d-flex justify-content-between">
@@ -15,9 +15,9 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 18v-6a3 3 0 0 0 -3 -3h-10l4 -4m0 8l-4 -4" /></svg>
                         Geri
                     </a>
-                    <a class="btn btn-primary btn-sm me-1" href="{{ route('page.create') }}" title="Sayfa Ekle">
+                    <a class="btn btn-primary btn-sm me-1" href="{{ route('event.create') }}" title="Sayfa Ekle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                        Sayfa Ekle
+                        Etkinlik Ekle
                     </a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                                         Eylemler
                                     </button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item justify-content-between" href="{{ route('page.edit', $item->id) }}" title="Düzenle">
+                                        <a class="dropdown-item justify-content-between" href="{{ route('event.edit', $item->id) }}" title="Düzenle">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" /><path d="M16 5l3 3" /><path d="M9 7.07a7.002 7.002 0 0 0 1 13.93a7.002 7.002 0 0 0 6.929 -5.999" /></svg>
                                             Düzenle
                                         </a>
@@ -91,7 +91,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" /></svg>
                                         İptal Et
                                     </a>
-                                    <form action="{{ route('page.destroy', $item->id) }}" method="POST">
+                                    <form action="{{ route('event.destroy', $item->id) }}" method="POST">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-danger btn-sm ms-auto">
@@ -117,11 +117,11 @@
                 <div>
                     <h4 class="card-title">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                        Sayfa Kategori [{{ $Kategori->count() }}]
+                        Etkinlik Kategori [{{ $Kategori->count() }}]
                     </h4>
                 </div>
                 <div>
-                    <a class="btn btn-tabler btn-sm" href="{{ route('page-categories.index') }}" title="Sayfa Ekle">
+                    <a class="btn btn-tabler btn-sm" href="{{ route('event-categories.index') }}" title="Sayfa Ekle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                         Kategoriler
                     </a>
@@ -141,7 +141,7 @@
                     <tfoot>
                     <tr>
                         <th colspan="4">
-                            <a class="btn btn-success btn-block btn-sm" href="{{ route('page-categories.create') }}" title="Yeni Kategori Ekle">
+                            <a class="btn btn-success btn-block btn-sm" href="{{ route('event-categories.create') }}" title="Yeni Kategori Ekle">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                                 Yeni Ekle
                             </a>
@@ -168,7 +168,7 @@
                                             Eylemler
                                         </button>
                                         <div class="dropdown-menu dropdown-menu-end">
-                                            <a class="dropdown-item justify-content-between" href="{{ route('page-categories.edit', $item->id) }}" title="Düzenle">
+                                            <a class="dropdown-item justify-content-between" href="{{ route('event-categories.edit', $item->id) }}" title="Düzenle">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" /><path d="M16 5l3 3" /><path d="M9 7.07a7.002 7.002 0 0 0 1 13.93a7.002 7.002 0 0 0 6.929 -5.999" /></svg>
                                                 Düzenle
                                             </a>
@@ -196,7 +196,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" /></svg>
                                             İptal Et
                                         </a>
-                                        <form action="{{ route('page-categories.destroy', $item->id) }}" method="POST">
+                                        <form action="{{ route('event-categories.destroy', $item->id) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger btn-sm ms-auto">
@@ -223,7 +223,7 @@
                 update:function()
                 {
                     let siralama = $('#orders').sortable('serialize');
-                    $.get("{{ route('page.getOrder') }}?"+siralama,() => {
+                    $.get("{{ route('event.getOrder') }}?"+siralama,() => {
                         $("#rank").show(500).delay(2500).fadeOut();
                         document.getElementById("rank").innerHTML="Sıralama başarıyla güncellendi.";
                         setInterval(function(){
@@ -237,7 +237,7 @@
                 const id = $(this)[0].getAttribute('status-id');
                 const status = $(this).prop('checked');
 
-                $.get("{{route('page.getSwitch')}}", {id:id,status:status},
+                $.get("{{route('event.getSwitch')}}", {id:id,status:status},
                     () => {
                         if(status) {}
                     });

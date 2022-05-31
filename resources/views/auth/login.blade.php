@@ -1,73 +1,62 @@
-@extends('layouts.app')
-
+@extends('frontend.layout.app')
+@section('title', 'İletişim | '.config('app.name'))
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+    @include('frontend.layout.header2')
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
+    <div class="container py-4">
 
-                        <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5 mb-5 mb-lg-0">
+                <h2 class="font-weight-bold text-5 mb-0">Giriş Yap</h2>
+                <form method="POST" action="{{ route('login') }}" >
+                    @csrf
+                    <div class="row">
+                        <div class="form-group col">
+                            <label class="form-label text-color-dark text-3">Email Adresiniz <span class="text-color-danger">*</span></label>
+                            <input id="email" type="email" class="form-control form-control-lg text-4 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col">
+                            <label class="form-label text-color-dark text-3">Şifreniz <span class="text-color-danger">*</span></label>
+                            <input id="password" type="password" class="form-control form-control-lg text-4 @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                            @error('password')
+                            <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
-                                @enderror
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="form-group col-md-auto">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="rememberme">
+                                <label class="form-label custom-control-label cur-pointer text-2" for="rememberme" {{ old('remember') ? 'checked' : '' }}>Beni Hatırla</label>
                             </div>
                         </div>
-
-                        <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
+                        <div class="form-group col-md-auto">
+                            @if (Route::has('password.request'))
+                                <a class="text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2" href="{{ route('password.request') }}">Şifremi Unuttum?</a>
+                                </a>
+                            @endif
                         </div>
-
-                        <div class="row mb-3">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col">
+                            <button type="submit" class="btn btn-dark btn-modern w-100 text-uppercase rounded-0 font-weight-bold text-3 py-3" data-loading-text="Loading...">Giriş Yap</button>
+                      </div>
+                    </div>
+                </form>
             </div>
+
         </div>
+
     </div>
-</div>
+
+
 @endsection

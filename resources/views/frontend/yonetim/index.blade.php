@@ -19,7 +19,7 @@
                                <img class="img-fluid" src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
                                 <span class="thumb-info-title bg-transparent">
                                     <span class="thumb-info-inner pb-3">{{ $item->title }} <em class="opacity-7">{{ $item->master }}</em></span>
-                                    <a class="btn btn-light btn-sm text-dark" href="yonetim-detay.php?name=Levent Yiğit&title=Yönetim Kurulu Başkanı">Detaylı Bilgi</a>
+                                    <a class="btn btn-light btn-sm text-dark" href="{{ route('yonetimdetay', $item->slug) }}">Detaylı Bilgi</a>
                                 </span>
                             </span>
                         </span>

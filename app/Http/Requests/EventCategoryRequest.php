@@ -6,25 +6,25 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class EventCategoryRequest extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
-     */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array
-     */
     public function rules()
     {
         return [
-            //
+            'title'                 => 'required|min:6|max:99|unique:event_categories,title,'.$this->id,
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'title.required'            => 'Etkinlik Kategori başlığını giriniz',
+            'title.max'                 => 'Etkinlik Kategori başlığı en fazla 99 karakter olabilir',
+            'title.min'                 => 'Etkinlik Kategori başlığı en fazla 6 karakter olabilir',
+            'title.unique'              => 'Etkinlik Kategori başlığı daha önce eklenmiş',
         ];
     }
 }

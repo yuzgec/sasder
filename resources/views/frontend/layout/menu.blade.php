@@ -31,26 +31,13 @@
                 Etkinlikler
             </a>
             <ul class="dropdown-menu">
+                @foreach($Event_Categories as $item)
                 <li>
-                    <a class="dropdown-item" href="/etkinlikler?name=Eğitim Programları">
-                        Eğitim Programları
+                    <a class="dropdown-item" href="{{ route('etkinlikler', [$item->slug] ) }}">
+                        {{ $item->title }}
                     </a>
                 </li>
-                <li>
-                    <a class="dropdown-item" href="/etkinlikler?name=Toplantılar">
-                        Toplantılar
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/etkinlikler?name=Seminerler">
-                        Seminerler
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/etkinlikler?name=Paneller">
-                        Paneller
-                    </a>
-                </li>
+                @endforeach
             </ul>
         </li>
 

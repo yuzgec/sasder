@@ -16,7 +16,7 @@ class Event extends Model implements HasMedia
     use HasFactory,SoftDeletes,InteractsWithMedia,LogsActivity;
 
     protected $guarded = [];
-    protected $table = 'event';
+    protected $table = 'events';
 
     public function getActivitylogOptions(): LogOptions
     {

@@ -1,7 +1,7 @@
 @extends('backend.layout.app')
-@section('title', $Edit->title.' | Sayfa Kategori Düzenle')
+@section('title', $Edit->title.' | Etkinlik Kategori Düzenle')
 @section('content')
-    {{Form::model($Edit, ["route" => ["page-categories.update", $Edit->id],'enctype' => 'multipart/form-data'])}}
+    {{Form::model($Edit, ["route" => ["event-categories.update", $Edit->id],'enctype' => 'multipart/form-data'])}}
     @method('PUT')
     <div class="row">
         <div class="col-12 col-md-9">
@@ -68,7 +68,7 @@
     <script type="text/javascript">
 
         CKEDITOR.replace( 'aciklama', {
-            filebrowserUploadUrl: "{{ route('page-categories.postUpload', ['_token' => csrf_token()]) }}",
+            filebrowserUploadUrl: "{{ route('event-categories.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
             height : 400,
             toolbar: [

@@ -49,22 +49,16 @@ class HomeController extends Controller
             $Details->workplace = $request->workplace;
             $Details->mission = $request->mission;
             $Details->webpage = $request->webpage;
-
             $Details->save();
-
         });
 
         $User = User::with('user')->where('email', $request->email)->first();
-
         Mail::send("frontend.mail.siparis",compact('User'),function ($message) use($User) {
             $message->to($User->email)->subject('Syn. '.$User->name.' '. $User->user->surname.' üyelik başvurunuz işleme alınmıştır.');
         });
-
         Mail::send("frontend.mail.siparis",compact('User'),function ($message) use($User) {
             $message->to(MAIL_SEND)->subject('Syn. '.$User->name.' '. $User->user->surname.' ait yeni üyelik başvurusu.');
         });
-
-
         return view('frontend.uyelik.success');
     }
 
@@ -75,26 +69,22 @@ class HomeController extends Controller
         return view('frontend.yonetim.index',compact('All'));
     }
 
-    public function yonetimkuruludetay(){
-        return view('frontend.yonetim.details');
-
+    public function yonetimdetay($url){
+        $Detail = Team::where('slug', $url)->first();
+        return view('frontend.yonetim.details', compact('Detail'));
     }
 
 
     public function kongre(){
-
         $Project =  Project::where('status', 1)->get();
         return view('frontend.kongreler.index',compact('Project'));
     }
 
     public function kongredetay($url){
-
         $Detay = Project::where('slug',$url)->firstOrFail();
         $Konusmacilar = Speaker::where('project_id',$Detay->id)->get();
         $Days = Speaker::where('project_id',$Detay->id)->groupBy('speaker_day')->get();
-        //dd($Days);
         return view('frontend.kongreler.details', compact('Detay', 'Konusmacilar', 'Days'));
-
     }
 
     public function video()
@@ -128,6 +118,10 @@ class HomeController extends Controller
 
     public function search(SearchRequest $request){
 
+    }
+
+    public function etkinlikler(){
+        return view('frontend.etkinlikler.index');
     }
 
 

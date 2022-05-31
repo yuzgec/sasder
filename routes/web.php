@@ -18,6 +18,11 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::get('/arama', 'HomeController@search')->name('search');
     Route::post('/bulten', 'HomeController@mailsubcribes')->name('mailsubcribes');
 
+
+    Route::get('/etkinlikler/{url}', 'HomeController@etkinlikler')->name('etkinlikler');
+    Route::get('/etkinlik/{kategori}/{url}', 'HomeController@etkinlik')->name('etkinlik');
+
+
     Route::get('/kurumsal/{url}', 'HomeController@kurumsal')->name('kurumsal');
     Route::get('/yonetimkurulu', 'HomeController@yonetimkurulu')->name('yonetimkurulu');
     Route::get('/yonetimkurulu/{url}', 'HomeController@yonetimdetay')->name('yonetimdetay');
