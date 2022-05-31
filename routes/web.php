@@ -53,4 +53,6 @@ use Spatie\Sitemap\SitemapGenerator;
         Route::auto('/team', TeamController::class);
         Route::auto('/team-categories', TeamCategoryController::class);
         Route::auto('/speaker', SpeakerController::class);
+        Route::auto('/event', EventController::class);
+        Route::auto('/event-categories', EventCategoryController::class);
     });
