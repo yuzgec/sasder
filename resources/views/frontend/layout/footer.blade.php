@@ -3,54 +3,29 @@
         <div class="row py-5">
             <div class="col-12 col-md-3">
                 <h5 class="text-3 text-color-dark mb-3">HAKKIMIZDA</h5>
+                @foreach($Pages as $item)
+                    <p class="mb-1">
+                    <a class="text-4"href="{{ route('kurumsal', $item->slug) }}">
+                            {{ $item->title }}
+                        </a>
+                    </p>
+                @endforeach
                 <p class="mb-1">
-                    <a href="" class="text-4">
-                        Vizyon & Misyon
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
+                <a class="text-4" href="{{ route('yonetimkurulu') }}">
                         Yönetim Kurulu
                     </a>
                 </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Yönetim Kurulu’nun Mesajı
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Bilimsel Danışma Kurulu
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Dernek Tüzüğü
-                    </a>
-                </p>
+
             </div>
             <div class="col-12 col-md-3">
                 <h5 class="text-3 text-color-dark mb-3">ETKİNLİKLER</h5>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Eğitim Programları
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Toplantılar
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Seminerler
-                    </a>
-                </p>
-                <p class="mb-1">
-                    <a href="" class="text-4">
-                        Paneller
-                    </a>
-                </p>
+                @foreach($Event_Categories as $item)
+                    <p class="mb-1">
+                        <a  class="text-4" href="{{ route('etkinlikler', [$item->slug] ) }}">
+                            {{ $item->title }}
+                        </a>
+                    </p>
+                @endforeach
             </div>
 
             <div class="col-12 col-md-3">

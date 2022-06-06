@@ -87,7 +87,7 @@
                             <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper rounded">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="https://picsum.photos/600/400/?blur=2" class="img-fluid" >
+                                               <img class="img-fluid" src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
                                         </span>
                                     </span>
                                 <h4 class="font-weight-bold mt-4">{{ $item->title }}</h4>

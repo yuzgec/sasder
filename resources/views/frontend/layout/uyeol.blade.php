@@ -1,6 +1,7 @@
 
 
-    <section class="call-to-action call-to-action-primary container container-xl-custom mb-2 mt-2 ">
+    <section class="call-to-action call-to-action-primary mb-2 mt-2 ">
+        <div class="container container-xl-custom">
             <div class="row d-flex ">
                 <div class="col-lg-9">
                     <div class="call-to-action-content">
@@ -14,6 +15,6 @@
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
 
