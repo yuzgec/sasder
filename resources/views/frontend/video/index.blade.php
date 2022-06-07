@@ -21,61 +21,15 @@
     </section>
 
     <div class="container container-xl-custom py-4">
-
         <div class="row">
+            @foreach($All as $item)
             <div class="col-6 mb-2">
                 <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
+                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/{{ $item->video_url }}?showinfo=0&amp;wmode=opaque"></iframe>
                 </div>
+                <h4 class="birsatir p-1">{{ $item->title }}</h4>
             </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-            <div class="col-6 mb-2">
-                <div class="ratio ratio-16x9">
-                    <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
-                </div>
-            </div>
-
-
+            @endforeach
         </div>
-
-
     </div>
-
-
 @endsection

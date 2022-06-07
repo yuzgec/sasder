@@ -10,6 +10,7 @@ use App\Models\Speaker;
 use App\Models\Team;
 use App\Models\User;
 use App\Models\UserDetails;
+use App\Models\Video;
 use Illuminate\Http\Request;
 use Artesaos\SEOTools\Facades\SEOTools;
 use Illuminate\Support\Facades\DB;
@@ -89,7 +90,8 @@ class HomeController extends Controller
 
     public function video()
     {
-        return view('frontend.video.index');
+        $All =  Video::where('status', 1)->get();
+        return view('frontend.video.index', compact('All'));
     }
 
     public function kurumsal($url){

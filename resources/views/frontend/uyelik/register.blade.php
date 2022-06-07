@@ -5,12 +5,12 @@
     <div class="container container-xl-custom py-4 mb-3 mt-2"  style="background:#ced4da">
 
         <div class="row mb-2">
-            <div class="col-3"></div>
+            <div class="col-md-3"></div>
             <div class="col-12 col-md-6">
                 <div class="text-center">
                     <h2 class="font-weight-bold text-7 mt-2 mb-0">SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ (SASDER) <br>ÜYE BAŞVURU FORMU</h2>
                 </div>
-                <form role="form" class="needs-validation  p-3" method="post" action="{{ route('uyeol') }}" >
+                <form role="form" class="needs-validation p-3 " method="post" action="{{ route('uyeol') }}" >
                     @csrf
                     <div class="row">
                         <div class="col-lg-12 mb-4 mb-lg-0">
@@ -22,28 +22,25 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Adı <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="name"/>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Soyadı <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="surname"/>
                                 </div>
                             </div>
 
+
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Doğrum Tarihi <span class="text-color-danger">*</span></label>
                                     <input type="date" class="form-control h-auto py-2" name="birthday"/>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Eğitim Durumu <span class="text-color-danger">*</span></label>
                                     <div class="custom-select-1">
                                         <select class="form-select form-control h-auto py-2" name="education">
@@ -61,7 +58,7 @@
 
                             <div class="row">
                                 <div class="form-group col">
-                                    <label class="form-label">Çalıştığı kurum veya Son çalıştığı işyeri <span class="text-color-danger">*</span></label>
+                                    <label class="form-label">Çalıştığı kurum veya son çalıştığı işyeri <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="workplace" />
                                 </div>
                             </div>
@@ -73,23 +70,13 @@
                                 </div>
                             </div>
 
-
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Cep Telefonu <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="phone"/>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="form-label">Email Adresi <span class="text-color-danger">*</span></label>
-                                    <input type="email" class="form-control h-auto py-2" name="email"/>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Web Sayfası <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="webpage"/>
                                 </div>
@@ -102,25 +89,55 @@
                                 </div>
                             </div>
 
-                            <div class="text-center">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label class="form-label">Email Adresi <span class="text-color-danger">*</span></label>
+                                    <input type="email" class="form-control h-auto py-2" name="email"/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label class="form-label">Parola<span class="text-color-danger">*</span></label>
+                                    <input type="password" class="form-control h-auto py-2" name="email"/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label class="form-label">Tekrar Parola<span class="text-color-danger">*</span></label>
+                                    <input type="password" class="form-control h-auto py-2" name="email"/>
+                                </div>
+                            </div>
+
+                        {{--    <div class="text-center">
                                 <h2 class="font-weight-bold text-7 mt-2 mb-0">YÖNETİM KURULU BAŞKANLIĞINA</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia architecto dignissimos facere nemo ab magni, blanditiis, voluptate dolores ullam omnis nulla nobis, rerum magnam laudantium impedit qui praesentium earum libero.
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia architecto dignissimos facere nemo ab magni, blanditiis, voluptate dolores ullam omnis nulla nobis, rerum magnam laudantium impedit qui praesentium earum libero.</p>
                             </div>
-
+--}}
 
                         </div>
-                        <button type="submit" class="btn btn-success btn-block">Başvuru Formunu Onayla</button>
+
+                        <div class="row">
+                            <div class="form-group col d-flex align-items-center">
+                                <input type="checkbox" id="onay" name="onay" value="0">
+                                <label for="onay" class="text-1">&nbsp;&nbsp; KVKK şartlarını okudum kabul ederim.</label><br>
+                                <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Başvuru Formunu Onayla</button>
+                            </div>
+                        </div>
 
                     </div>
 
-            </div>
+
             </form>
-            <div class="col-32"></div>
+
 
 
         </div>
-    </div>
+            <div class="col-md-3"></div>
+
+        </div>
 
     </div>
 

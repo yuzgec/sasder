@@ -51,8 +51,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="form-group col">
-                            <input type="submit" value="Mesajı Gönder" class="btn btn-primary btn-modern" data-loading-text="Loading...">
+                        <div class="form-group col d-flex align-items-center">
+                            <input type="checkbox" id="onay" name="onay" value="0">
+                            <label for="onay" class="text-1">&nbsp;&nbsp; KVKK şartlarını okudum kabul ederim.</label><br>
+                            <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Gönder</button>
                         </div>
                     </div>
                 </form>
@@ -62,7 +64,7 @@
 
 
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="card card-border card-border-bottom bg-color-light">
                     <div class="card-body">
                         <h4 class="card-title mb-1 text-4 font-weight-bold">Adres</h4>
@@ -71,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="card card-border card-border-bottom bg-color-light">
                     <div class="card-body">
                         <h4 class="card-title mb-1 text-4 font-weight-bold">Telefon  - Faks</h4>
@@ -80,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="card card-border card-border-bottom bg-color-light">
                     <div class="card-body">
                         <h4 class="card-title mb-1 text-4 font-weight-bold">E-Posta</h4>

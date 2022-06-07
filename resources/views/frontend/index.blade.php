@@ -21,6 +21,11 @@
                         ile gerçekleşti.Başkent Üniversitesi Öğr. Üyesi Prof. Dr. Simtem Malhan'ın moderatörlüğünü yaptığı yayının konuşmacıları Allianz Türkiye Sağlık
                         Genel Müdür Yardımcısı Okan Özdemir ve OHSAD Başkanı Opr. Dr. Reşat Bahat oldu.
                         Yayında Covid-19 süreci ve sonrasında sağlık ve sigorta sektöründe yeni döneme hakkında değerlendirmelerde bulunuldu.</p>
+
+                    <p> Sektör Konuşuyor toplantı serimizin online yayını 23 Temmuz 2020 tarihinde "Pandemi ve Sonrasında Sağlık & Sigorta Sektöründe Yeni Dönem" başlığı
+                        ile gerçekleşti.Başkent Üniversitesi Öğr. Üyesi Prof. Dr. Simtem Malhan'ın moderatörlüğünü yaptığı yayının konuşmacıları Allianz Türkiye Sağlık
+                        Genel Müdür Yardımcısı Okan Özdemir ve OHSAD Başkanı Opr. Dr. Reşat Bahat oldu.
+                        Yayında Covid-19 süreci ve sonrasında sağlık ve sigorta sektöründe yeni döneme hakkında değerlendirmelerde bulunuldu.</p>
                 </div>
 
             </div>
@@ -33,36 +38,34 @@
                 <div class="col">
                     <h4 class="text-center">SPONSORLARIMIZ</h4>
                     <div class="owl-carousel owl-theme show-nav-title show-nav-title-both-sides" data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false}">
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
+                            <div>
+                                <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
+                            </div>
                         </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                            <img alt="" class="img-fluid rounded" src="https://sasder.org/media/logo/SASDER-Logo.png">
-                        </div>
-                        <div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -97,8 +100,6 @@
                                 </a>
                             </div>
                             @endforeach
-
-                                <a href="#" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Gör <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
