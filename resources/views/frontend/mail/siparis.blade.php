@@ -93,7 +93,7 @@
                                                     <tr>
                                                         <td align="center" valign="top">
                                                             <a href="https://www.sasder.com">
-                                                                <img mc:edit="tm-01" editable="true" src="https://www.godijital.net/images/sasder.png" width="300" alt="" />
+                                                                <img mc:edit="tm-01" editable="true" src="https://www.35webtasarim.com/frontend/img/sasderlogo.png" width="300" alt="" />
                                                             </a>
                                                         </td>
                                                     </tr>

@@ -147,23 +147,32 @@
                                 @if($errors->has('onay'))
                                     <div class="invalid-feedback">{{$errors->first('onay')}}</div>
                                 @endif
-                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik şartlarını okudum kabul ederim.</label><br>
+                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik <a data-bs-toggle="modal" data-bs-target="#largeModal">şartlarını</a> okudum kabul ederim.</label><br>
                                 <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Başvuru Formunu Onayla</button>
                             </div>
                         </div>
-
                     </div>
-
-
             </form>
-
-
-
         </div>
-            <div class="col-md-3"></div>
-
+        <div class="col-md-3"></div>
         </div>
+    </div>
 
+    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="largeModalLabel">{{ $Cookies->title }}</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    {!! $Cookies->desc !!}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection

@@ -26,12 +26,12 @@ class HomeController extends Controller
     }
 
     public function uyelik(){
-        return view('frontend.uyelik.register');
+        $Cookies = Page::where('id',7)->first();
+        return view('frontend.uyelik.register', compact('Cookies'));
     }
 
     public function uyeol(UserRequest $request)
     {
-
         DB::transaction(function () use ($request) {
             $New = new User;
             $New->name = $request->name;

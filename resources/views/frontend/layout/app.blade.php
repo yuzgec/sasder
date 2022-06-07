@@ -28,7 +28,7 @@
                                     class="btn btn-primary-scale-2 btn-modern btn-px-2 btn-py-1 ms-1 me-2 notice-top-bar-close m-0"
                                     data-set-active="false">KABUL ET
                                 </button>
-                                <a href="/kurumsal/kvkk" class="text-white text-2 ml-2">Daha
+                                <a href="{{ route('kurumsal', 'internet-sitesi-cerez-aydinlatma-metni') }}" class="text-white text-2 ml-2">Daha
                                     Fazla Bilgi
                                 </a>
                             </p>
