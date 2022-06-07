@@ -33,7 +33,7 @@
             <ul class="dropdown-menu">
                 @foreach($Event_Categories as $item)
                 <li>
-                    <a class="dropdown-item" href="{{ route('etkinlikler', [$item->slug] ) }}">
+                    <a class="dropdown-item" href="{{ route('home'}}">
                         {{ $item->title }}
                     </a>
                 </li>

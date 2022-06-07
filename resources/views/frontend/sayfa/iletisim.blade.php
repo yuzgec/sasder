@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="form-group col d-flex align-items-center">
                             <input type="checkbox" id="onay" name="onay" value="0">
-                            <label for="onay" class="text-1">&nbsp;&nbsp; KVKK şartlarını okudum kabul ederim.</label><br>
+                            <label for="onay" class="text-1">&nbsp;&nbsp; KVKK <a data-bs-toggle="modal" data-bs-target="#largeModal" style="">şartlarını</a> okudum kabul ederim.</label><br>
                             <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Gönder</button>
                         </div>
                     </div>
@@ -93,6 +93,22 @@
         </div>
 
 
+    </div>
+    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="largeModalLabel">{{ $Cookies->title }}</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    {!! $Cookies->desc !!}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection

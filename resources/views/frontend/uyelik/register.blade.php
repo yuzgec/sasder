@@ -147,7 +147,7 @@
                                 @if($errors->has('onay'))
                                     <div class="invalid-feedback">{{$errors->first('onay')}}</div>
                                 @endif
-                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik <a data-bs-toggle="modal" data-bs-target="#largeModal">şartlarını</a> okudum kabul ederim.</label><br>
+                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik <a data-bs-toggle="modal" data-bs-target="#largeModal" style="">şartlarını</a> okudum kabul ederim.</label><br>
                                 <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Başvuru Formunu Onayla</button>
                             </div>
                         </div>

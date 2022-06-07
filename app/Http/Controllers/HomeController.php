@@ -26,7 +26,7 @@ class HomeController extends Controller
     }
 
     public function uyelik(){
-        $Cookies = Page::where('id',7)->first();
+        $Cookies = Page::where('id',8)->first();
         return view('frontend.uyelik.register', compact('Cookies'));
     }
 
@@ -109,7 +109,8 @@ class HomeController extends Controller
     }
 
     public function iletisim(){
-        return view('frontend.sayfa.iletisim');
+        $Cookies = Page::where('id',6)->first();
+        return view('frontend.sayfa.iletisim', compact('Cookies'));
     }
 
     public function mailsubcribes(Request $request){
