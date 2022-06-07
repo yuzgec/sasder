@@ -41,12 +41,11 @@
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-3 text-color-dark mb-3">SOSYAL MEDYA</h5>
                 <ul class="header-social-icons social-icons">
-                    <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-2"></i></a></li>
-                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter text-2"></i></a></li>
-                    <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in text-2"></i></a></li>
-                    <li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-                    <li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
-
+                    <li class="social-icons-facebook"><a href="http://www.facebook.com/sasder" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-icons-twitter"><a href="http://www.twitter.com/sasdersasder" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icons-linkedin"><a href="http://www.linkedin.com/company/sasder" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="social-icons-instagram"><a href="http://www.instagram.com/sasder.official/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li class="social-icons-youtube"><a href="http://www.youtube.com/channel/UCG-ElXveLd4LWMjYXj6EoUQ" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>

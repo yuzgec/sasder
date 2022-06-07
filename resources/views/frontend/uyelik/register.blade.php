@@ -17,19 +17,28 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">T.C. Kimlik No <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="tckn"/>
+                                    <input value="{{old('tckn')}}" type="text" class="form-control h-auto py-2 @if($errors->has('tckn')) is-invalid @endif" name="tckn"/>
+                                    @if($errors->has('tckn'))
+                                        <div class="invalid-feedback">{{$errors->first('tckn')}}</div>
+                                    @endif
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Adı <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="name"/>
+                                    <input value="{{old('name')}}" type="text" class="form-control h-auto py-2 @if($errors->has('name')) is-invalid @endif" name="name"/>
+                                    @if($errors->has('name'))
+                                        <div class="invalid-feedback">{{$errors->first('name')}}</div>
+                                    @endif
                                 </div>
 
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Soyadı <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="surname"/>
+                                    <input value="{{old('surname')}}" type="text" class="form-control h-auto py-2 @if($errors->has('surname')) is-invalid @endif" name="surname"/>
+                                    @if($errors->has('surname'))
+                                        <div class="invalid-feedback">{{$errors->first('surname')}}</div>
+                                    @endif
                                 </div>
                             </div>
 
@@ -37,7 +46,10 @@
                             <div class="row">
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Doğrum Tarihi <span class="text-color-danger">*</span></label>
-                                    <input type="date" class="form-control h-auto py-2" name="birthday"/>
+                                    <input value="{{old('birthday')}}" type="date" class="form-control h-auto py-2 @if($errors->has('birthday')) is-invalid @endif" name="birthday"/>
+                                    @if($errors->has('birthday'))
+                                        <div class="invalid-feedback">{{$errors->first('birthday')}}</div>
+                                    @endif
                                 </div>
 
                                 <div class="form-group col-md-6 col-12">
@@ -99,14 +111,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">Parola<span class="text-color-danger">*</span></label>
-                                    <input type="password" class="form-control h-auto py-2" name="email"/>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="form-label">Tekrar Parola<span class="text-color-danger">*</span></label>
-                                    <input type="password" class="form-control h-auto py-2" name="email"/>
+                                    <input type="password" class="form-control h-auto py-2" name="password"/>
                                 </div>
                             </div>
 
@@ -122,7 +127,7 @@
                         <div class="row">
                             <div class="form-group col d-flex align-items-center">
                                 <input type="checkbox" id="onay" name="onay" value="0">
-                                <label for="onay" class="text-1">&nbsp;&nbsp; KVKK şartlarını okudum kabul ederim.</label><br>
+                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik şartlarını okudum kabul ederim.</label><br>
                                 <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Başvuru Formunu Onayla</button>
                             </div>
                         </div>
