@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="col-auto align-self-center">
-                                <div class="badge bg-{{ ($item->surname == 1 ) ?  'success' : 'danger' }}"></div>
+                                <div class="badge bg-{{ ($item->status == 1 ) ?  'success' : 'danger' }}"></div>
                             </div>
                         </div>
                     </div>
