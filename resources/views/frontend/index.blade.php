@@ -22,16 +22,16 @@
                         Genel Müdür Yardımcısı Okan Özdemir ve OHSAD Başkanı Opr. Dr. Reşat Bahat oldu.
                         Yayında Covid-19 süreci ve sonrasında sağlık ve sigorta sektöründe yeni döneme hakkında değerlendirmelerde bulunuldu.</p>
 
-                    <p> Sektör Konuşuyor toplantı serimizin online yayını 23 Temmuz 2020 tarihinde "Pandemi ve Sonrasında Sağlık & Sigorta Sektöründe Yeni Dönem" başlığı
-                        ile gerçekleşti.Başkent Üniversitesi Öğr. Üyesi Prof. Dr. Simtem Malhan'ın moderatörlüğünü yaptığı yayının konuşmacıları Allianz Türkiye Sağlık
-                        Genel Müdür Yardımcısı Okan Özdemir ve OHSAD Başkanı Opr. Dr. Reşat Bahat oldu.
-                        Yayında Covid-19 süreci ve sonrasında sağlık ve sigorta sektöründe yeni döneme hakkında değerlendirmelerde bulunuldu.</p>
+                    <div class="col-lg-6">
+                        <a href="{{ route('video') }}" class="btn btn-modern btn-dark mt-3">Video Galeri</a>
+                        <a href="{{route('iletisim')}}" class="btn btn-modern btn-primary mt-3">İletişim</a>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
-
+{{--
     <section class="section my-0 border-0 bg-transparent">
         <div class="container container-xl-custom">
             <div class="row">
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
     @include('frontend.layout.uyeol')
 
@@ -108,7 +108,7 @@
         </div>
     </section>
 
-
+{{--
     <section class="section my-0 border-0 bg-transparent">
         <div class="container container-xl-custom py-5">
             <div class="row">
@@ -172,7 +172,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
 @endsection
 

@@ -6,7 +6,7 @@
                 <div class="col-lg-9">
                     <div class="call-to-action-content">
                         <h3>SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ <strong>(SASDER)</strong></h3>
-                        <p class="mb-0">Üye olma ile alakalı kısa bir yazı gelecek</p>
+                        <p class="mb-0">Sasder'e üye olarak sektöre ait bilgi ve fırsatlardan ilk siz haberdar olun!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 float-end">

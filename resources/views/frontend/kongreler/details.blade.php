@@ -94,5 +94,9 @@
         table tr td{
             font-size: 10px !important;
         }
+        iframe{
+            width: 100% !important;
+        }
     </style>
 @endsection
+

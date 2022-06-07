@@ -27,9 +27,10 @@
                 <div class="ratio ratio-16x9">
                     <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/{{ $item->video_url }}?showinfo=0&amp;wmode=opaque"></iframe>
                 </div>
-                <h4 class="birsatir p-1">{{ $item->title }}</h4>
+                <h4 class="birsatir p-1" title="{{ $item->title }}">{{ $item->title }}</h4>
             </div>
             @endforeach
         </div>
     </div>
 @endsection
+
