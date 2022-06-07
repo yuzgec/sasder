@@ -1,5 +1,5 @@
 
-    <div class="col-12 col-md-9">
+    <div class="col-12 col-md-12">
         <div class="row">
             <div class="col-sm-3 mt-2">
                 <div class="card">
@@ -49,7 +49,7 @@
                         <div class="text-h3 m-0 font-weight-bold">[{{ $Pages->count() }}] Kategori</div>
                         <div class="text-muted mb-3">
                             <a href="{{route('project.index')}}" title="Proje Yönetimi" class="btn btn-outline-tabler btn-sm ">
-                                Ürün Kategori Yönetimi
+                                Kategori Yönetimi
                             </a>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
         </div>
     </div>
 
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-md-12">
         <div class="card mt-2" style="height: calc(24rem + 10px)">
 
             <div class="card-body card-body-scrollable card-body-scrollable-shadow">
@@ -87,20 +87,22 @@
                     <small style="font-size: 10px" class="badge bg-azure text-capitalize">Okunmamış Mesajlarınız Var</small>
                 </h4>
                 <div class="divide-y">
-                    @foreach($Activity as $item)
+                    @foreach($User as $item)
                     <div>
                         <div class="row">
                             <div class="col">
                                 <div class="text-truncate">
-                                    <strong>Jeffie Lewzey</strong> commented on your post.
+                                    <strong>{{ $item->getUser->name.' '.$item->surname}}</strong>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div class="text-muted">12 Saat Önce</div>
-                                    <div class="text-muted badge text-black">İletişim</div>
+                                    <div class="text-muted"> {{ $item->created_at->diffForHumans() }}</div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="text-muted">{{ $item->getUser->email }}</div>
                                 </div>
                             </div>
                             <div class="col-auto align-self-center">
-                                <div class="badge bg-success"></div>
+                                <div class="badge bg-{{ ($item->surname == 1 ) ?  'success' : 'danger' }}"></div>
                             </div>
                         </div>
                     </div>

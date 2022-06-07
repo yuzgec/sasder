@@ -13,7 +13,7 @@ class UserDetails extends Model
     protected $table = 'user_details';
 
     public function getUser(){
-        return $this->belongsTo('App\Models\User', 'id');
+        return $this->hasOne(User::class, 'id', 'user_id');
     }
 
 }
