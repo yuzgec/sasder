@@ -27,7 +27,7 @@ class UserRequest extends FormRequest
             'mission'           => 'required',
             'phone'             => 'required|digits:10',
             'email'             => 'required|string|email|max:255|unique:users',
-            'password'          => 'required|string|min:6|confirmed',
+            'password'          => 'required|string|min:6',
         ];
     }
 
@@ -53,7 +53,6 @@ class UserRequest extends FormRequest
             'email.unique'             => 'Bu e-posta adresi zaten kullanılıyor',
             'password.required'        => 'Şifre alanı zorunludur',
             'password.min'             => 'Şifre en az 6 karakter olabilir',
-            'password.confirmed'       => 'Şifreler uyuşmuyor',
         ];
     }
 }
