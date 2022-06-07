@@ -55,7 +55,7 @@
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Eğitim Durumu <span class="text-color-danger">*</span></label>
                                     <div class="custom-select-1">
-                                        <select class="form-select form-control h-auto py-2" name="education">
+                                        <select class="form-select form-control h-auto py-2" name="education" required>
                                             <option  selected>Seçiniz...</option>
                                             <option value="1">İlkokul</option>
                                             <option value="2">Ortaokul</option>
@@ -71,47 +71,64 @@
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label">Çalıştığı kurum veya son çalıştığı işyeri <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="workplace" />
+                                    <input value="{{old('workplace')}}"  type="text" class="form-control h-auto py-2 @if($errors->has('workplace')) is-invalid @endif" name="workplace" />
+                                    @if($errors->has('workplace'))
+                                        <div class="invalid-feedback">{{$errors->first('workplace')}}</div>
+                                    @endif
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label">Görevi <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="mission" />
+                                    <input value="{{old('mission')}}"  type="text" class="form-control h-auto py-2  @if($errors->has('mission')) is-invalid @endif"  name="mission" />
+                                    @if($errors->has('mission'))
+                                        <div class="invalid-feedback">{{$errors->first('mission')}}</div>
+                                    @endif
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Cep Telefonu <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="phone"/>
+                                    <input value="{{old('phone')}}"  type="text" class="form-control h-auto py-2  @if($errors->has('phone')) is-invalid @endif" name="phone"/>
+                                    @if($errors->has('phone'))
+                                        <div class="invalid-feedback">{{$errors->first('phone')}}</div>
+                                    @endif
                                 </div>
 
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Web Sayfası <span class="text-color-danger">*</span></label>
                                     <input type="text" class="form-control h-auto py-2" name="webpage"/>
+
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">Yıllık Aidat Tutarı <span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="firstName" value="50₺" disabled/>
+                                    <input  type="text" class="form-control h-auto py-2" name="aidat" value="50₺" disabled/>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">Email Adresi <span class="text-color-danger">*</span></label>
-                                    <input type="email" class="form-control h-auto py-2" name="email"/>
+                                    <input value="{{old('email')}}"  type="email" class="form-control h-auto py-2  @if($errors->has('email')) is-invalid @endif"  name="email"/>
+                                    @if($errors->has('email'))
+                                        <div class="invalid-feedback">{{$errors->first('email')}}</div>
+                                    @endif
+
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">Parola<span class="text-color-danger">*</span></label>
-                                    <input type="password" class="form-control h-auto py-2" name="password"/>
+                                    <input type="password" class="form-control h-auto py-2  @if($errors->has('password')) is-invalid @endif"  name="password"/>
+                                    @if($errors->has('password'))
+                                        <div class="invalid-feedback">{{$errors->first('password')}}</div>
+                                    @endif
                                 </div>
                             </div>
 
