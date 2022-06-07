@@ -26,7 +26,7 @@ class ViewShareProvider extends ServiceProvider
         if (! app()->runningInConsole()) {
             Paginator::useBootstrap();
             config()->set('settings', Setting::pluck('value','item')->all());
-            $Pages = Cache::remember('pages',now()->addYear(1), function () {return Page::with('getCategory')->where('status',1)->orderBy('rank','desc')->get();});
+            $Pages = Cache::remember('pages',now()->addYear(1), function () {return Page::with('getCategory')->where(['status' => 1, 'category' => 1])->orderBy('rank','desc')->get();});
             $Page_Categories = Cache::remember('page_categories',now()->addYear(1), function () {return PageCategory::where('status',1)->orderBy('rank','desc')->get(); });
             $Project = Cache::remember('project',now()->addYear(1), function () { return Project::where('status',1)->orderBy('rank','desc')->get(); });
             $Event_Categories = Cache::remember('event_categories',now()->addYear(1), function () { return EventCategory::where('status',1)->orderBy('rank','desc')->get(); });
