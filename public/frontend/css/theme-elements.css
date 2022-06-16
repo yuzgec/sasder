@@ -3608,6 +3608,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 .owl-carousel .owl-nav {
 	top: 50%;
 	position: absolute;
+    left:-50px;
 	width: 100%;
 	margin-top: 0;
 	transform: translate3d(0, -50%, 0);
@@ -4282,7 +4283,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 
 .owl-carousel.nav-font-size-lg .owl-nav button.owl-prev,
 .owl-carousel.nav-font-size-lg .owl-nav button.owl-next {
-	font-size: 19px;
+	font-size: 35px;
 }
 
 .owl-carousel.nav-font-size-lg .owl-nav button.owl-prev:before,
@@ -12247,7 +12248,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360º Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */

@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-3 float-end">
                     <div class="call-to-action-btn">
-                        <a href="{{ route('uyelik') }}" class="btn btn-modern text-2 btn-light border-0">Üye Olun</a>
+                        <a href="{{ route('uyelik') }}" class="btn text-white text-color-hover-primary  btn-xl btn-outline btn-rounded btn-light d-none d-sm-block text-1 ms-3 font-weight-bold text-uppercase">Üye Ol</a>
                     </div>
                 </div>
             </div>

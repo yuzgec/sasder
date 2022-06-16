@@ -10,20 +10,16 @@
 
                 <div class="col-lg-6 mt-5 mt-lg-0">
                     <div class="ratio ratio-16x9">
-                        <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/q0GeIj-XE1o?showinfo=0&amp;wmode=opaque"></iframe>
+                        <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/j03RGdHFDEE?showinfo=0&amp;wmode=opaque"></iframe>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <h4 class="text-primary text-3 font-weight-bold mb-2">SASDER</h4>
-                    <h3>SASDER Online Yayın'ı yapıldı.</h3>
-                    <p> Sektör Konuşuyor toplantı serimizin online yayını 23 Temmuz 2020 tarihinde "Pandemi ve Sonrasında Sağlık & Sigorta Sektöründe Yeni Dönem" başlığı
-                        ile gerçekleşti.Başkent Üniversitesi Öğr. Üyesi Prof. Dr. Simtem Malhan'ın moderatörlüğünü yaptığı yayının konuşmacıları Allianz Türkiye Sağlık
-                        Genel Müdür Yardımcısı Okan Özdemir ve OHSAD Başkanı Opr. Dr. Reşat Bahat oldu.
-                        Yayında Covid-19 süreci ve sonrasında sağlık ve sigorta sektöründe yeni döneme hakkında değerlendirmelerde bulunuldu.</p>
+                    <h4 class="text-primary text-2 font-weight-bold mb-2">SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ</h4>
+                    <h3>SASDER SEKTÖR KONUŞUYOR</h3>
 
                     <div class="col-lg-6">
-                        <a href="{{ route('video') }}" class="btn btn-modern btn-dark mt-3">Video Galeri</a>
+                        <a href="{{ route('etkinlikler') }}" class="btn btn-modern btn-dark mt-3">Etkinlikler</a>
                         <a href="{{route('iletisim')}}" class="btn btn-modern btn-primary mt-3">İletişim</a>
                     </div>
                 </div>

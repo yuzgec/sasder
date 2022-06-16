@@ -19,7 +19,7 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::post('/bulten', 'HomeController@mailsubcribes')->name('mailsubcribes');
 
 
-    Route::get('/etkinlikler/{url}', 'HomeController@etkinlikler')->name('etkinlikler');
+    Route::get('/etkinlikler', 'HomeController@etkinlikler')->name('etkinlikler');
     Route::get('/etkinlik/{kategori}/{url}', 'HomeController@etkinlik')->name('etkinlik');
 
 

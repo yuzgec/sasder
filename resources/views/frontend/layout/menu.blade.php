@@ -25,20 +25,10 @@
                 </li>
             </ul>
         </li>
-
         <li class="dropdown">
-            <a class="dropdown-item dropdown-toggle" href="#">
+            <a class="dropdown-item dropdown-toggle" href="{{ route('etkinlikler') }}">
                 Etkinlikler
             </a>
-            <ul class="dropdown-menu">
-                @foreach($Event_Categories as $item)
-                <li>
-                    <a class="dropdown-item" href="/">
-                        {{ $item->title }}
-                    </a>
-                </li>
-                @endforeach
-            </ul>
         </li>
 
         <li class="dropdown">
@@ -57,11 +47,6 @@
             </ul>
         </li>
 
-        <li class="dropdown">
-            <a class="dropdown-item dropdown-toggle" href="{{ route('video') }}">
-                Video Galeri
-            </a>
-        </li>
 
         <li class="dropdown">
             <a class="dropdown-item dropdown-toggle" href="{{ route('iletisim') }}">
