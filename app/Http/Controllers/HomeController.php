@@ -123,8 +123,7 @@ class HomeController extends Controller
     }
 
     public function etkinlikler(){
-        return view('frontend.etkinlikler.index');
+        $All =  Video::where('status', 1)->get();
+        return view('frontend.etkinlikler.index', compact('All'));
     }
-
-
 }
