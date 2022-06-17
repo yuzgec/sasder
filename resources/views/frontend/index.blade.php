@@ -25,7 +25,10 @@
                 </div>
 
             </div>
+
+            @include('frontend.layout.uyeol')
         </div>
+
     </section>
 {{--
     <section class="section my-0 border-0 bg-transparent">
@@ -67,7 +70,7 @@
         </div>
     </section>--}}
 
-    @include('frontend.layout.uyeol')
+
 
     <section class="section my-0 border-0 mt-2">
 

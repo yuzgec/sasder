@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-@section('title', 'İletişim | '.config('app.name'))
+@section('title', 'Etkinlikler | '.config('app.name'))
 @section('content')
     @include('frontend.layout.header2')
     <section class="page-header page-header-modern bg-color-light-scale-1 page-header-lg">
@@ -17,6 +17,4 @@
             </div>
         </div>
     </section>
-
-
-    @endsection
+@endsection

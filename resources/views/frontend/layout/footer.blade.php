@@ -1,5 +1,5 @@
 <footer  class="footer-top-border bg-color-light-scale-1">
-    <div class="container container-xl-custom py-4">
+{{--    <div class="container container-xl-custom py-4">
         <div class="row py-5">
             <div class="col-12 col-md-3">
                 <h5 class="text-3 text-color-dark mb-3">HAKKIMIZDA</h5>
@@ -49,7 +49,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>--}}
     <div class="footer-copyright footer-top-border bg-color-light-scale-1">
         <div class="container container-xl-custom py-2">
             <div class="row py-4">
@@ -63,10 +63,12 @@
                 </div>
                 <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <nav id="sub-menu">
-                        <ul class="d-flex" style="list-style:none">
-                            <li><i class="fas fa-angle-right"></i><a href="/" class="ms-1 text-decoration-none text-color-primary"> S.S.S.</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="/" class="ms-1 text-decoration-none text-color-primary"> Site Haritası</a></li>
-                            <li><i class="fas fa-angle-right"></i><a href="{{ route('iletisim') }}" class="ms-1 text-decoration-none text-color-primary"> İletişim</a></li>
+                        <ul class="header-social-icons social-icons">
+                            <li class="social-icons-facebook"><a href="http://www.facebook.com/sasder" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-icons-twitter"><a href="http://www.twitter.com/sasdersasder" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/company/sasder" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-icons-instagram"><a href="http://www.instagram.com/sasder.official/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-icons-youtube"><a href="http://www.youtube.com/channel/UCG-ElXveLd4LWMjYXj6EoUQ" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </nav>
                 </div>

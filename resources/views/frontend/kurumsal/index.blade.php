@@ -18,9 +18,9 @@
             </div>
         </div>
     </section>
-    @include('frontend.layout.uyeol')
-    <div class="container container-xl-custom py-4">
 
+    <div class="container container-xl-custom py-4">
+        @include('frontend.layout.uyeol')
         <div class="row mb-2">
             <div class="col">
 

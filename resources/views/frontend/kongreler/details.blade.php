@@ -22,8 +22,8 @@
     </section>
 
     <div class="container container-xl-custom py-4  mt-2 resimler"  >
-
-        <div class="row">
+        @include('frontend.layout.uyeol')
+        <div class="row mt-3">
             <div class="col-md-{{ $Days->count() > 0 ? 8 : 12 }}">
                 {!! $Detay->desc !!}
             </div>

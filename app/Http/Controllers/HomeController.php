@@ -77,8 +77,7 @@ class HomeController extends Controller
 
 
     public function kongre(){
-        $Project =  Project::where('status', 1)->get();
-        return view('frontend.kongreler.index',compact('Project'));
+        return view('frontend.kongreler.index');
     }
 
     public function kongredetay($url){

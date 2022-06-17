@@ -23,17 +23,17 @@
     <div class="container container-xl-custom py-4" >
         <div class="row">
             @foreach($Project as $item)
-            <div class="col-lg-4 mb-4">
-                <span class="thumb-info border-all thumb-info-show-button-hover">
-                    <span class="thumb-info-wrapper">
-                        <img src="https://picsum.photos/600/400/?blur=2" class="img-fluid" alt="">
-                        <span class="thumb-info-title bg-transparent">
-                            <span class="thumb-info-inner pb-3">{{ $item->title }} <em class="opacity-7">09/19/2022</em></span>
-                            <a class="btn btn-light btn-sm text-dark" href="{{ route('kongredetay', $item->slug) }}" title="{{ $item->title }}">Detaylı Bilgi</a>
+
+                    <div class="col-lg-4 mb-4">
+                        <a href="{{ route('kongredetay', $item->slug) }}" title="{{ $item->title }}">
+                        <span class="thumb-info border-all thumb-info-show-button-hover">
+                            <span class="thumb-info-wrapper">
+                                <img class="img-fluid" src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
+                            </span>
                         </span>
-                    </span>
-                </span>
-            </div>
+                        </a>
+                    </div>
+
             @endforeach
         </div>
 
