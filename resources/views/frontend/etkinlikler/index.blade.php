@@ -17,4 +17,16 @@
             </div>
         </div>
     </section>
+    <div class="container container-xl-custom py-4">
+        <div class="row">
+            @foreach($All as $item)
+                <div class="col-6 mb-2">
+                    <div class="ratio ratio-16x9">
+                        <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/{{ $item->video_url }}?showinfo=0&amp;wmode=opaque"></iframe>
+                    </div>
+                    <h4 class="birsatir p-1" title="{{ $item->title }}">{{ $item->title }}</h4>
+                </div>
+            @endforeach
+        </div>
+    </div>
 @endsection

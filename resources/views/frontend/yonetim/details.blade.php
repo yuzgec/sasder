@@ -49,6 +49,7 @@
                     </ul>
                 </div>
         </div>
+        @include('frontend.layout.uyeol')
     </div>
 
 @endsection
