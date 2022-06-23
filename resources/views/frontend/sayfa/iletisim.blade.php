@@ -53,7 +53,8 @@
                     <div class="row">
                         <div class="form-group col d-flex align-items-center">
                             <input type="checkbox" id="onay" name="onay" value="0">
-                            <label for="onay" class="text-1">&nbsp;&nbsp; KVKK <a data-bs-toggle="modal" data-bs-target="#largeModal" style="">şartlarını</a> okudum kabul ederim.</label><br>
+                            <label for="onay" class="text-1">&nbsp;&nbsp;
+                                K.V.K.K. <a data-bs-toggle="modal" data-bs-target="#largeModal" style="text-decoration:underline">şartlarını</a> okudum ve onaylıyorum.</label><br>
                             <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Gönder</button>
                         </div>
                     </div>

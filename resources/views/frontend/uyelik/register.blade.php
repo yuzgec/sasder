@@ -107,7 +107,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label class="form-label">Yıllık Aidat Tutarı <span class="text-color-danger">*</span></label>
-                                    <input  type="text" class="form-control h-auto py-2" name="aidat" value="50₺" disabled/>
+                                    <input  type="text" class="form-control h-auto py-2" name="aidat" value="50 TL" disabled/>
                                 </div>
                             </div>
 
@@ -147,7 +147,7 @@
                                 @if($errors->has('onay'))
                                     <div class="invalid-feedback">{{$errors->first('onay')}}</div>
                                 @endif
-                                <label for="onay" class="text-1">&nbsp;&nbsp; Üyelik <a data-bs-toggle="modal" data-bs-target="#largeModal" style="">şartlarını</a> okudum kabul ederim.</label><br>
+                                <label for="onay" class="text-2">&nbsp;&nbsp; Üyelik <a data-bs-toggle="modal" data-bs-target="#largeModal" style="text-decoration:underline"><b>şartlarını</b></a> onaylıyorum.</label><br>
                                 <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Başvuru Formunu Onayla</button>
                             </div>
                         </div>
