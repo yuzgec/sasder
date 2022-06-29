@@ -26,7 +26,8 @@
                 <h2 class="font-weight-bold text-7 mt-2 mb-0">Bizimle İletişime Geçiniz.</h2>
                 <p class="mb-4">Aşağıdaki formu kullanarak bize hızlı bir şekilde e-mail gönderebilirsiniz!</p>
 
-                <form class="contact-form-recaptcha-v3" action="php/contact-form-recaptcha-v3.php" method="POST">
+                <form class="contact-form-recaptcha-v3" action="/" method="POST">
+                    @csrf
 
                     <div class="row">
                         <div class="form-group col-lg-6">

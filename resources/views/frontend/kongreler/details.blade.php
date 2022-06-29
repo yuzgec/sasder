@@ -30,8 +30,10 @@
 
                 <div class="col-lg-4">
                     @if($Detay->short == 1)
-                        <form class="contact-form-recaptcha-v3" action="php/contact-form-recaptcha-v3.php" method="POST">
+                        <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
 
+                        <form class="contact-form-recaptcha-v3" action="/" method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Adınız Soyadınız</label>
