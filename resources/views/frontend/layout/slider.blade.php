@@ -26,7 +26,9 @@
                     <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2300">
                         <div class="d-flex align-items-center mt-2">
                             <a href="iletisim" class="btn btn-light btn-modern text-color-primary font-weight-bold text-2 py-3 btn-px-4">İLETİŞİME GEÇ</a>
+{{--
                             <a href="/kongre/8-ulusal-kongre" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 ms-4">DETAYLI BİLGİ<i class="fas fa-arrow-right ms-2"></i></a>
+--}}
                         </div>
                     </div>
                 </div>
