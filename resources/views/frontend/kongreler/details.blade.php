@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-@section('title', 'Yönetim Kurulu | '.config('app.name'))
+@section('title', $Detay->title. ' SASDER Ulusal Kongre | '.config('app.name'))
 @section('content')
     @include('frontend.layout.header2')
 
@@ -29,6 +29,44 @@
             </div>
 
                 <div class="col-lg-4">
+                    @if($Detay->short == 1)
+                        <form class="contact-form-recaptcha-v3" action="php/contact-form-recaptcha-v3.php" method="POST">
+
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label class="form-label mb-1 text-2">Adınız Soyadınız</label>
+                                    <input type="text" maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label class="form-label mb-1 text-2">Email Adresiniz</label>
+                                    <input type="email" maxlength="100" class="form-control text-3 h-auto py-2" name="email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label class="form-label mb-1 text-2">Telefon Numaranız</label>
+                                    <input type="text"  maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label class="form-label mb-1 text-2">Firma Kurum Adı</label>
+                                    <input type="text"  maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col d-flex align-items-center">
+                                    <input type="checkbox" id="onay" name="onay" value="0">
+                                    <label for="onay" class="text-1">&nbsp;&nbsp;
+                                        K.V.K.K. <a data-bs-toggle="modal" data-bs-target="#largeModal" style="text-decoration:underline">şartlarını</a> okudum ve onaylıyorum.</label><br>
+                                    <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Gönder</button>
+                                </div>
+                            </div>
+                        </form>
+                     @else
                     <div class="tabs">
                         <ul class="nav nav-tabs">
                             @foreach($Days as $item)
@@ -59,6 +97,7 @@
                         </div>
 
                     </div>
+                     @endif
                 </div>
 
                 <div class="col-md-12">

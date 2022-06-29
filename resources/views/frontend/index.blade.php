@@ -15,14 +15,14 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="/frontend/img/9sasbanner.jpg" alt="SASDER" class="img-fluid">
-                   {{-- <h4 class="text-primary text-2 font-weight-bold mb-2">SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ</h4>
+                    {{--<img src="/frontend/img/9sasbanner.jpg" alt="SASDER" class="img-fluid">--}}
+                    <h4 class="text-primary text-2 font-weight-bold mb-2">SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ</h4>
                     <h3>SASDER SEKTÖR KONUŞUYOR</h3>
 
                     <div class="col-lg-6">
                         <a href="{{ route('etkinlikler') }}" class="btn btn-modern btn-dark mt-3">Etkinlikler</a>
                         <a href="{{route('iletisim')}}" class="btn btn-modern btn-primary mt-3">İletişim</a>
-                    </div>--}}
+                    </div>
                 </div>
 
             </div>
