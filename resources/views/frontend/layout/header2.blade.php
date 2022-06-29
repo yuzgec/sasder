@@ -16,14 +16,14 @@
                     </div>
                     <div class="header-column justify-content-end">
                         <div class="header-row">
-                            <ul class="list list-unstyled list-inline mb-0">
+                          {{--  <ul class="list list-unstyled list-inline mb-0">
                                 <li class="list-inline-item mb-0">
                                     <i class="icons icon-user text-color-primary text-4 position-relative top-4 me-1"></i>
                                     <a href="uyelik" class="text-color-primary text-color-hover-primary font-weight-semibold text-decoration-none text-2">
                                         Giriş Yap / Üye Ol
                                     </a>
                                 </li>
-                            </ul>
+                            </ul>--}}
                         </div>
                     </div>
                 </div>
