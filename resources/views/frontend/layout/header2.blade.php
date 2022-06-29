@@ -5,13 +5,13 @@
                 <div class="header-row py-2">
                     <div class="header-column justify-content-start">
                         <div class="header-row">
-                            <ul class="header-social-icons social-icons social-icons-clean">
+                          {{--  <ul class="header-social-icons social-icons social-icons-clean">
                                 <li class="social-icons-facebook"><a href="http://www.facebook.com/sasder" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="social-icons-twitter"><a href="http://www.twitter.com/sasdersasder" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                                 <li class="social-icons-linkedin"><a href="http://www.linkedin.com/company/sasder" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li class="social-icons-instagram"><a href="http://www.instagram.com/sasder.official/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
                                 <li class="social-icons-youtube"><a href="http://www.youtube.com/channel/UCG-ElXveLd4LWMjYXj6EoUQ" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
+                            </ul>--}}
                         </div>
                     </div>
                     <div class="header-column justify-content-end">
