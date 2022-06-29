@@ -15,7 +15,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="/frontendimg/img/9sasbanner.jpg" alt="SASDER" class="img-fluid">
+                    <img src="/frontend/img/9sasbanner.jpg" alt="SASDER" class="img-fluid">
                    {{-- <h4 class="text-primary text-2 font-weight-bold mb-2">SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ</h4>
                     <h3>SASDER SEKTÖR KONUŞUYOR</h3>
 
