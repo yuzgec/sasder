@@ -162,7 +162,6 @@
         $(document).ready(function() {
             $("img").addClass("img-fluid");
             $("table").addClass("table table-hover table-striped table-bordered");
-
         })
     </script>
     @endsection
