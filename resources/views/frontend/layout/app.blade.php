@@ -6,10 +6,10 @@
         {!! Twitter::generate() !!}
         @include('frontend.layout.css')
         @yield('customCSS')
-
     </head>
     <body data-plugin-page-transition>
         <div class="body">
+
 
             <div class="notice-top-bar bg-primary" data-sticky-start-at="180">
                 <button class="hamburguer-btn hamburguer-btn-light notice-top-bar-close kapat m-0 active"

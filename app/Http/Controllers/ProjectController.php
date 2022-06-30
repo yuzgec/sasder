@@ -33,6 +33,10 @@ class ProjectController extends Controller
         $New->short = $request->short;
         $New->desc = $request->desc;
 
+        $New->tab1 = $request->tab1;
+        $New->tab2 = $request->tab2;
+        $New->tab3 = $request->tab3;
+
         $New->seo_desc = $request->seo_desc;
         $New->seo_key = $request->seo_key;
         $New->seo_title = $request->seo_title;
@@ -72,9 +76,15 @@ class ProjectController extends Controller
         $Update->category = $request->category;
         $Update->short = $request->short;
         $Update->desc = $request->desc;
+
+        $Update->tab1 = $request->tab1;
+        $Update->tab2 = $request->tab2;
+        $Update->tab3 = $request->tab3;
+
         $Update->seo_title = $request->seo_title;
         $Update->seo_desc = $request->seo_desc;
         $Update->seo_key = $request->seo_key;
+
         $Update->save();
 
         if($request->removeImage == "1"){

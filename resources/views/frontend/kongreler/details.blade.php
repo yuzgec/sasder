@@ -24,12 +24,12 @@
     <div class="container container-xl-custom py-4  mt-2 resimler"  >
         @include('frontend.layout.uyeol')
         <div class="row mt-3">
-            <div class="col-md-{{ $Days->count() > 0 ? 8 : 12 }}">
-                {!! $Detay->desc !!}
-            </div>
+                <div class="col-md-{{ $Days->count() > 0 ? 8 : 12 }}">
+                    {!! $Detay->desc !!}
+                </div>
 
                 <div class="col-lg-4">
-                    @if($Detay->short == 1)
+                    @if($Detay->form == 1)
                         <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
 
                         <form class="contact-form-recaptcha-v3" action="/" method="POST">
@@ -101,10 +101,50 @@
                     </div>
                      @endif
                 </div>
+                @if($Detay->form == 1)
+                    <div class="col-md-12">
+                    <div class="tabs tabs-bottom tabs-center tabs-simple">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="#genel" data-bs-toggle="tab">Genel Bilgiler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#kayit" data-bs-toggle="tab">Kayıt - Konaklama - Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#banka" data-bs-toggle="tab">Banka Hesap Bilgileri</a>
+                            </li>
 
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="genel">
+                                <div class="text-center">
+                                    <h4>Customer Support</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kayit">
+                                <div class="text-center">
+                                    <h4>HTML5 / CSS3 / JS</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="banka">
+                                <div class="text-center">
+                                    <h4>500+ Google Fonts</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                @endif
                 <div class="col-md-12">
-
-                <div class="masonry-loader masonry-loader-showing">
+                    <div class="masonry-loader masonry-loader-showing">
                     <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
 
                         <div class="lightbox"
@@ -117,9 +157,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
 
-        </div>
+         </div>
     </div>
 
 @endsection
