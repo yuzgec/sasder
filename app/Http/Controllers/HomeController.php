@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Http\Requests\FormSiteRequest;
 use App\Http\Requests\SearchRequest;
 use App\Http\Requests\UserRequest;
+use App\Models\Form;
 use App\Models\MailSubcribes;
 use App\Models\Page;
 use App\Models\Project;
@@ -28,6 +30,24 @@ class HomeController extends Controller
     public function uyelik(){
         $Cookies = Page::where('id',8)->first();
         return view('frontend.uyelik.register', compact('Cookies'));
+    }
+
+
+    public function form(FormSiteRequest $request){
+
+        $New = new Form;
+        $New->title = $request->title;
+        $New->name = $request->name;
+        $New->email = $request->email;
+        $New->phone = $request->phone;
+        $New->message = $request->message;
+        $New->subject = $request->subject;
+        $New->company = $request->company;
+        $New->save();
+
+        Mail::send("frontend.mail.form",compact('New'),function ($message) use($New) {
+            $message->to(MAIL_SEND)->subject($New->title.' formu | SASDER FORM | ');
+        });
     }
 
     public function uyeol(UserRequest $request)
@@ -66,6 +86,14 @@ class HomeController extends Controller
     public function yonetimkurulu(){
 
         $All =  Team::where('status', 1)->get();
+
+        SEOTools::setTitle('Sasder Yönetim Kurulu');
+        SEOTools::setDescription('Sağlık ve sigortacılık alanında ürettiğimiz bilgi ve belgeleri paylaşarak tartışmak ve politika oluşturup kurumlara iletmeyi amaçlıyoruz');
+        SEOTools::opengraph()->setUrl(url()->current());
+        SEOTools::setCanonical(route('yonetimkurulu'));
+        SEOTools::opengraph()->addProperty('type', 'page');
+        SEOTools::twitter()->setSite('@sasdersasder');
+
         //dd($All);
         return view('frontend.yonetim.index',compact('All'));
     }
@@ -75,13 +103,27 @@ class HomeController extends Controller
         return view('frontend.yonetim.details', compact('Detail'));
     }
 
-
     public function kongre(){
+        SEOTools::setTitle('SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ (SASDER) - KONGRELERİMİZ');
+        SEOTools::setDescription('Sağlık ve sigortacılık alanında ürettiğimiz bilgi ve belgeleri paylaşarak tartışmak ve politika oluşturup kurumlara iletmeyi amaçlıyoruz');
+        SEOTools::opengraph()->setUrl(url()->current());
+        SEOTools::setCanonical(route('kongrelerimiz'));
+        SEOTools::opengraph()->addProperty('type', 'page');
+        SEOTools::twitter()->setSite('@sasdersasder');
         return view('frontend.kongreler.index');
     }
 
     public function kongredetay($url){
         $Detay = Project::where('slug',$url)->firstOrFail();
+
+        SEOTools::setTitle($Detay->title);
+        SEOTools::setDescription($Detay->seo_desc);
+        SEOTools::opengraph()->setUrl(url()->current());
+        SEOTools::setCanonical(route('kongredetay', $Detay->slug));
+        SEOTools::opengraph()->addProperty('type', 'page');
+        SEOTools::twitter()->setSite('@sasdersasder');
+        SEOTools::jsonLd()->addImage($Detay->getFirstMediaUrl('page','thumb'));
+
         $Konusmacilar = Speaker::where('project_id',$Detay->id)->get();
         $Days = Speaker::where('project_id',$Detay->id)->groupBy('speaker_day')->get();
         return view('frontend.kongreler.details', compact('Detay', 'Konusmacilar', 'Days'));
@@ -101,7 +143,7 @@ class HomeController extends Controller
         SEOTools::opengraph()->setUrl(url()->current());
         SEOTools::setCanonical(route('kurumsal', $Detay->slug));
         SEOTools::opengraph()->addProperty('type', 'page');
-        SEOTools::twitter()->setSite('@kiblegahaile');
+        SEOTools::twitter()->setSite('@sasdersasder');
         SEOTools::jsonLd()->addImage($Detay->getFirstMediaUrl('page','thumb'));
 
         return view('frontend.kurumsal.index', compact('Detay'));

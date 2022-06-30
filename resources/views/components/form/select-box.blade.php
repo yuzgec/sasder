@@ -1,5 +1,5 @@
 <div class="form-group mb-3 row">
-    <label class="form-label col-3 col-form-label">{{$label}} </label>
+    <label class="form-label col-2 col-form-label">{{$label}} </label>
     <div class="col">
         {{Form::select($name, $list, $selected, ["class" => $class . (($errors->has($name))?" is-invalid":""),"placeholder" => $placeholder, "multiple" => $multiple])}}
     </div>

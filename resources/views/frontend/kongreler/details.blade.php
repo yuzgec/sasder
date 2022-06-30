@@ -32,7 +32,8 @@
                     @if($Detay->form == 1)
                         <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
 
-                        <form class="contact-form-recaptcha-v3" action="/" method="POST">
+                        <form class="contact-form-recaptcha-v3" action="{{ route('form') }}" method="POST">
+                            <input type="hidden" name="title" value="Başvuru">
                             @csrf
                             <div class="row">
                                 <div class="form-group col">
@@ -56,7 +57,7 @@
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Firma Kurum Adı</label>
-                                    <input type="text"  maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                                    <input type="text"  maxlength="100" class="form-control text-3 h-auto py-2" name="company" required>
                                 </div>
                             </div>
                             <div class="row">

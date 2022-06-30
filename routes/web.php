@@ -30,6 +30,8 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::get('/kongre/{url}', 'HomeController@kongredetay')->name('kongredetay');
     Route::get('/kongrelerimiz', 'HomeController@kongre')->name('kongrelerimiz');
 
+    Route::post('/form', 'HomeController@form')->name('form');
+
 
     Route::group(["prefix"=>"go", 'middleware' => ['auth', 'admin']],function() {
         Route::get('/', 'DashboardController@index')->name('go');

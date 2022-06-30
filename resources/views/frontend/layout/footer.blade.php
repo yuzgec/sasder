@@ -55,7 +55,7 @@
             <div class="row py-4">
                 <div class="col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                     <a href="/" class="logo">
-                        <img class="ml-5" alt="Sasder" src="https://sasder.org/media/logo/SASDER-Logo.png" height="48">
+                        <img class="ml-5" alt="Sasder" src="https://sasder.org/frontend/img/sasderlogo.png" height="48">
                     </a>
                 </div>
                 <div class="col-lg-6 d-flex align-items-center justify-content-start mb-4 mb-lg-0">

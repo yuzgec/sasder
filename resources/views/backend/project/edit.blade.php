@@ -177,7 +177,7 @@
             height : 500,
             toolbar: [
                 { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList','JustifyLeft', 'JustifyCenter', 'JustifyRight']},
+                { name: 'paragraph',items: [ 'BulletedList','JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']},
                 { name: 'colors', items: [ 'TextColor']},
                 { name: 'styles', items: [ 'Format', 'FontSize']},
                 { name: 'links', items : [ 'Link', 'Unlink'] },

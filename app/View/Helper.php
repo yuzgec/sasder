@@ -8,6 +8,7 @@ use Gloudemans\Shoppingcart\Facades\Cart;
     define('CARGO_LIMIT', 69.90);
     define('CARGO_PRICE', 29.90);
     define('MAIL_SEND', 'olcayy@gmail.com');
+    define('MAIL_RUBIKON', 'info@rubikonturizm.com');
 
     function cartControl($id, $text = null){
         foreach (Cart::content() as $c){
