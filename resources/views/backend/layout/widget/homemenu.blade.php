@@ -81,11 +81,99 @@
             </div>
         </div>
     </div>
+
+
     <div class="col-12 col-md-9 mt-2">
+        {{--Kullanıcı Sayıları--}}
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-2">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                            <span class="bg-success text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-check" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                   <circle cx="9" cy="7" r="4"></circle>
+                                   <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                   <path d="M16 11l2 2l4 -4"></path>
+                                </svg>
+                            </span>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-medium">
+                                    132 Kullanıcı
+                                </div>
+                                <div class="text-muted">
+                                    Aktif Kullanıcı Sayısı
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                            <span class="bg-warning text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-exclamation" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                   <circle cx="9" cy="7" r="4"></circle>
+                                   <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                   <line x1="19" y1="7" x2="19" y2="10"></line>
+                                   <line x1="19" y1="14" x2="19" y2="14.01"></line>
+                                </svg>
+                            </span>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-medium">
+                                    132 Kullanıcı
+                                </div>
+                                <div class="text-muted">
+                                    Onaylanmamış Kullanıcı Sayısı
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <span class="bg-danger text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
+                                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M14.274 10.291a4 4 0 1 0 -5.554 -5.58m-.548 3.453a4.01 4.01 0 0 0 2.62 2.65"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 1.147 .167m2.685 2.681a4 4 0 0 1 .168 1.152v2"></path>
+                                       <line x1="3" y1="3" x2="21" y2="21"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-medium">
+                                    132 Kullanıcı
+                                </div>
+                                <div class="text-muted">
+                                    Silinmiş Kullanıcı Sayısı
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="card">
             <div class="card-body">
                 <div class="card-status-bottom bg-primary"></div>
-                <div class="card-title">Kullanıcı Listesi [{{$User->count()}}]</div>
+                <div class="d-flex justify-content-between">
+                    <div class="card-title">Kullanıcı Listesi [{{$User->count()}}]</div>
+                    <div>{{ $User->appends(['sort' => 'uyeler'])->links() }}</div>
+                </div>
+
                 <table class="table table-hover table-striped table-bordered table-center">
                     <thead>
                     <tr>
@@ -170,7 +258,7 @@
                     </tbody>
                 </table>
                 <span class="mt-3">
-                    {{ $User->appends(['sort' => 'uyeler'])->links() }}
+
                 </span>
             </div>
         </div>
