@@ -27,13 +27,14 @@
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-                    <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
+                      <span class="avatar avatar-sm" style="background-image: url('https://ui-avatars.com/api/?name={{@Auth::user()->name}}')"></span>
                     <div class="d-none d-xl-block ps-2">
                         <div>{{ auth()->user()->name }}</div>
                         <div class="mt-1 small text-muted">Admin</div>
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <a href="https://www.sasder.org" class="dropdown-item">Siteyi Önizle</a>
                     <a href="#" class="dropdown-item">Hesabım</a>
                     <a href="#" class="dropdown-item">Duyurular</a>
                     <div class="dropdown-divider"></div>
