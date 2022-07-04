@@ -25,37 +25,53 @@
 
                 <h2 class="font-weight-bold text-7 mt-2 mb-0">Bizimle İletişime Geçiniz.</h2>
                 <p class="mb-4">Aşağıdaki formu kullanarak bize hızlı bir şekilde e-mail gönderebilirsiniz!</p>
-
-                <form class="contact-form-recaptcha-v3" action="/" method="POST">
+                <form class="contact-form-recaptcha-v3" action="{{ route('form') }}" method="POST">
+                    <input type="hidden" name="title" value="İletişim">
                     @csrf
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6">
+                            <label class="form-label mb-1 text-2">Adınız Soyadınız</label>
+                            <input value="{{old('name')}}" type="text" class="form-control text-3 h-auto py-2  @if($errors->has('name')) is-invalid @endif" name="name">
+                            @if($errors->has('name'))
+                                <div class="invalid-feedback">{{$errors->first('name')}}</div>
+                            @endif
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label class="form-label mb-1 text-2">Telefon Numaranız</label>
+                            <input value="{{old('phone')}}"  type="text" class="form-control text-3 h-auto py-2  @if($errors->has('phone')) is-invalid @endif" name="phone">
+                            @if($errors->has('phone'))
+                                <div class="invalid-feedback">{{$errors->first('phone')}}</div>
+                            @endif
+                        </div>
+                    </div>
 
                     <div class="row">
-                        <div class="form-group col-lg-6">
-                            <label class="form-label mb-1 text-2">Adınız Soyadınız</label>
-                            <input type="text" maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
-                        </div>
-                        <div class="form-group col-lg-6">
+                        <div class="form-group col-12 col-md-6">
                             <label class="form-label mb-1 text-2">Email Adresiniz</label>
-                            <input type="email" maxlength="100" class="form-control text-3 h-auto py-2" name="email" required>
+                            <input value="{{old('email')}}" type="text" class="form-control text-3 h-auto py-2  @if($errors->has('email')) is-invalid @endif" name="email">
+                            @if($errors->has('email'))
+                                <div class="invalid-feedback">{{$errors->first('email')}}</div>
+                            @endif
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="form-group col">
+                        <div class="form-group col-12 col-md-6">
                             <label class="form-label mb-1 text-2">Konu</label>
-                            <input type="text"  maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                            <input value="{{old('subject')}}" type="text" class="form-control text-3 h-auto py-2  @if($errors->has('subject')) is-invalid @endif" name="subject">
+                            @if($errors->has('subject'))
+                                <div class="invalid-feedback">{{$errors->first('subject')}}</div>
+                            @endif
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col">
                             <label class="form-label mb-1 text-2">Mesajınız</label>
-                            <textarea maxlength="5000"  rows="5" class="form-control text-3 h-auto py-2" name="message" required></textarea>
+                            <textarea maxlength="5000"  rows="5" class="form-control text-3 h-auto py-2" name="message">{{old('message')}}</textarea>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col d-flex align-items-center">
-                            <input type="checkbox" id="onay" name="onay" value="0">
-                            <label for="onay" class="text-1">&nbsp;&nbsp;
-                                K.V.K.K. <a data-bs-toggle="modal" data-bs-target="#largeModal" style="text-decoration:underline">şartlarını</a> okudum ve onaylıyorum.</label><br>
+                            <input type="checkbox" id="onay" name="onay" required>
+                            <label for="onay" class="text-1">K.V.K.K. <a data-bs-toggle="modal" data-bs-target="#largeModal" style="text-decoration:underline">şartlarını</a> okudum ve onaylıyorum.</label><br>
                             <button type="submit" class="btn btn-primary btn-modern" style="margin-left:15px">Gönder</button>
                         </div>
                     </div>
@@ -113,4 +129,11 @@
         </div>
     </div>
 
+@endsection
+@section('CustomJS')
+    <script>
+        $('input[type="checkbox"]').on('change', function(){
+            this.value ^= 1;
+        });
+    </script>
 @endsection

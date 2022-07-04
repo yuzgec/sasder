@@ -55,8 +55,8 @@
                                 <div class="form-group col-md-6 col-12">
                                     <label class="form-label">Eğitim Durumu <span class="text-color-danger">*</span></label>
                                     <div class="custom-select-1">
-                                        <select class="form-select form-control h-auto py-2" name="education" required>
-                                            <option  selected>Seçiniz...</option>
+                                        <select class="form-select form-control h-auto py-2" name="education">
+                                            <option value="">Seçiniz...</option>
                                             <option value="1">İlkokul</option>
                                             <option value="2">Ortaokul</option>
                                             <option value="3">Lise</option>

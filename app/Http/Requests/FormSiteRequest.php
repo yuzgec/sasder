@@ -6,11 +6,7 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class FormSiteRequest extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
-     */
+
     public function authorize()
     {
         return true;
@@ -22,6 +18,7 @@ class FormSiteRequest extends FormRequest
             'name'                 => 'required|min:5|max:99',
             'email'                => 'required|email',
             'phone'                => 'required|digits:10',
+
         ];
     }
 
@@ -34,7 +31,7 @@ class FormSiteRequest extends FormRequest
             'email.required'           => 'Email Alanı Zorunludur.',
             'email.email'              => 'Geçerli Bir Email girilmelidir.',
             'phone.required'           => 'Telefon Alanı Zorunludur',
-            'phone.digits'             => 'Geçerli Bir Telefon Numarası Giriniz',
+            'phone.digits'             => 'Başında Sıfır Olmadan Giriniz Örn:5551234567',
         ];
     }
 }

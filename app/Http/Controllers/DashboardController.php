@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Faq;
+use App\Models\Form;
 use App\Models\Team;
 use App\Models\User;
 use App\Models\UserDetails;
@@ -18,9 +19,9 @@ class DashboardController extends Controller
         $Video = Video::count();
         $Team = Team::count();
         $Faq = Faq::count();
-        $Activity = Activity::all()->last();
         $User = UserDetails::with('getUser')->get();
+        $Form = Form::paginate(10);
         //dd($User);
-        return view('backend.index', compact('Project', 'Video', 'Team', 'Faq', 'Activity', 'User'));
+        return view('backend.index', compact('Project', 'Video', 'Team', 'Faq', 'Form', 'User'));
     }
 }

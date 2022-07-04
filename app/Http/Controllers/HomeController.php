@@ -21,7 +21,6 @@ use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
-
     public function index()
     {
         return view('frontend.index');
@@ -32,8 +31,8 @@ class HomeController extends Controller
         return view('frontend.uyelik.register', compact('Cookies'));
     }
 
-
     public function form(FormSiteRequest $request){
+        //dd($request->all());
 
         $New = new Form;
         $New->title = $request->title;
@@ -45,9 +44,13 @@ class HomeController extends Controller
         $New->company = $request->company;
         $New->save();
 
-        Mail::send("frontend.mail.form",compact('New'),function ($message) use($New) {
-            $message->to(MAIL_SEND)->subject($New->title.' formu | SASDER FORM | ');
+        //dd($New);
+
+        Mail::send("frontend.mail.form", compact('New'),function ($message) use($New) {
+            $message->to(MAIL_SEND)->subject($New->name.' | SASDER '.$New->title.' formu');
         });
+
+
     }
 
     public function uyeol(UserRequest $request)
@@ -115,7 +118,7 @@ class HomeController extends Controller
 
     public function kongredetay($url){
         $Detay = Project::where('slug',$url)->firstOrFail();
-
+        $Cookies = Page::where('id',8)->first();
         SEOTools::setTitle($Detay->title);
         SEOTools::setDescription($Detay->seo_desc);
         SEOTools::opengraph()->setUrl(url()->current());
@@ -126,7 +129,7 @@ class HomeController extends Controller
 
         $Konusmacilar = Speaker::where('project_id',$Detay->id)->get();
         $Days = Speaker::where('project_id',$Detay->id)->groupBy('speaker_day')->get();
-        return view('frontend.kongreler.details', compact('Detay', 'Konusmacilar', 'Days'));
+        return view('frontend.kongreler.details', compact('Detay', 'Konusmacilar', 'Days', 'Cookies'));
     }
 
     public function video()

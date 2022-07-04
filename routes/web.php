@@ -11,6 +11,7 @@ use Spatie\Sitemap\SitemapGenerator;
     Auth::routes();
 
     Route::get('/', 'HomeController@index')->name('home');
+    Route::post('/form', 'HomeController@form')->name('form');
     Route::get('/uyelik', 'HomeController@uyelik')->name('uyelik');
     Route::post('/uyeol', 'HomeController@uyeol')->name('uyeol');
     Route::get('/video', 'HomeController@video')->name('video');
@@ -30,7 +31,7 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::get('/kongre/{url}', 'HomeController@kongredetay')->name('kongredetay');
     Route::get('/kongrelerimiz', 'HomeController@kongre')->name('kongrelerimiz');
 
-    Route::post('/form', 'HomeController@form')->name('form');
+
 
 
     Route::group(["prefix"=>"go", 'middleware' => ['auth', 'admin']],function() {

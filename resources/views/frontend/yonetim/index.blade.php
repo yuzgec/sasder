@@ -14,6 +14,7 @@
                 <div class="row mb-2">
                     @foreach($All as $item)
                     <div class="col-lg-3 mb-3">
+                        <a href="{{ route('yonetimdetay', $item->slug) }}" title="{{ $item->title }} ">
                         <span class="thumb-info border-all thumb-info-show-button-hover">
                             <span class="thumb-info-wrapper">
                                <img class="img-fluid" src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
@@ -23,6 +24,7 @@
                                 </span>
                             </span>
                         </span>
+                        </a>
                     </div>
                     @endforeach
                 </div>

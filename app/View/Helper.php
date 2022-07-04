@@ -1,6 +1,5 @@
 <?php
     //SWEETALERT MESAJLARI -
-use Gloudemans\Shoppingcart\Facades\Cart;
 
     define('SWEETALERT_MESSAGE_CREATE', 'Eklendi');
     define('SWEETALERT_MESSAGE_UPDATE', 'Güncellendi');
@@ -10,14 +9,6 @@ use Gloudemans\Shoppingcart\Facades\Cart;
     define('MAIL_SEND', 'olcayy@gmail.com');
     define('MAIL_RUBIKON', 'info@rubikonturizm.com');
 
-    function cartControl($id, $text = null){
-        foreach (Cart::content() as $c){
-            if($c->id == $id){
-                echo $text;
-            }
-        }
-    }
-
     //KULLANICI ADI BAŞ HARFLERİNİ GÖSTERME
     function isim($isim){
         $parcala = explode(" ", $isim);
@@ -25,43 +16,8 @@ use Gloudemans\Shoppingcart\Facades\Cart;
         $son = mb_substr(end($parcala), 0,3);
         return $ilk.'***'.' '.$son.'***';
     }
-    function money($deger){
-        return number_format((float)$deger, 2, '.', '');
-    }
 
-    function cargo($toplam)
-    {
-        if ($toplam >= 0){
-            if ($toplam >= CARGO_LIMIT) {
-                return 'Ücretsiz Kargo';
-            } else {
-                return money(CARGO_PRICE);
-            }
-        }
-        return;
-    }
-
-    function kampanyatoplam($cart){
-        $toplam = 0;
-        foreach($cart as $cartItem){
-           if ($cartItem->options->campagin == false){
-                $toplam += $cartItem->price;
-            }
-        }
-        return $toplam;
-    }
-
-    function cargoToplam($toplam){
-
-        if($toplam < CARGO_LIMIT){
-            return money($toplam + CARGO_PRICE);
-        }else{
-            return $toplam;
-        }
-    }
-
-
-//SEO URL
+    //SEO URL
     function seo($str, $options = []) {
         $str = mb_convert_encoding((string)$str, 'UTF-8', mb_list_encodings());
         $defaults = array(

@@ -139,7 +139,7 @@
                                                     <tr>
                                                         <td height="60" align="center" valign="middle" style="background:#00509d; -moz-border-radius: 40px; border-radius: 40px;
                                                         font-family:'Open Sans', Verdana, Arial; font-size:14px; font-weight:bold; text-transform:uppercase; color:#FFF; " mc:edit="tm-06" >
-                                                            <multiline><a href="https:://www.sasder.org" style="text-decoration:none; color:#FFF;">Siteyi Ziyaret Et</a></multiline></td>
+                                                            <multiline><a href="https://www.sasder.org" style="text-decoration:none; color:#FFF;">Siteyi Ziyaret Et</a></multiline></td>
                                                     </tr>
                                                 </table></td>
                                         </tr>
