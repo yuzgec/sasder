@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-@section('title', 'Yönetim Kurulu | '.config('app.name'))
+@section('title', 'SASDER Yönetim Kurulu | '.config('app.name'))
 @section('content')
     @include('frontend.layout.header2')
 
@@ -14,17 +14,17 @@
                 <div class="row mb-2">
                     @foreach($All as $item)
                     <div class="col-lg-3 mb-3">
-                        <a href="{{ route('yonetimdetay', $item->slug) }}" title="{{ $item->title }} ">
+
                         <span class="thumb-info border-all thumb-info-show-button-hover">
                             <span class="thumb-info-wrapper">
                                <img class="img-fluid" src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
-                                <span class="thumb-info-title bg-transparent">
+                                    <span class="thumb-info-title bg-transparent">
                                     <span class="thumb-info-inner pb-3">{{ $item->title }} <em class="opacity-7">{{ $item->master }}</em></span>
                                     <a class="btn btn-light btn-sm text-dark" href="{{ route('yonetimdetay', $item->slug) }}">Detaylı Bilgi</a>
                                 </span>
                             </span>
                         </span>
-                        </a>
+
                     </div>
                     @endforeach
                 </div>

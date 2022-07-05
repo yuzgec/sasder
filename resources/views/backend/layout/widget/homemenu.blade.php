@@ -82,7 +82,6 @@
         </div>
     </div>
 
-
     <div class="col-12 col-md-9 mt-2">
         {{--Kullanıcı Sayıları--}}
         <div class="row">
@@ -91,7 +90,7 @@
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-auto">
-                            <span class="bg-success text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
+                            <span class="bg-success text-white avatar">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-check" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                    <circle cx="9" cy="7" r="4"></circle>
@@ -102,7 +101,7 @@
                             </div>
                             <div class="col">
                                 <div class="font-weight-medium">
-                                    132 Kullanıcı
+                                    {{ $User->where('status' , 1)->count() }} Kullanıcı
                                 </div>
                                 <div class="text-muted">
                                     Aktif Kullanıcı Sayısı
@@ -117,7 +116,7 @@
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-auto">
-                            <span class="bg-warning text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
+                            <span class="bg-warning text-white avatar">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-exclamation" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                    <circle cx="9" cy="7" r="4"></circle>
@@ -129,7 +128,7 @@
                             </div>
                             <div class="col">
                                 <div class="font-weight-medium">
-                                    132 Kullanıcı
+                                    {{ $User->where('status' , 0)->count() }} Kullanıcı
                                 </div>
                                 <div class="text-muted">
                                     Onaylanmamış Kullanıcı Sayısı
@@ -144,21 +143,22 @@
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-auto">
-                                <span class="bg-danger text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
-                                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <span class="bg-secondary text-white avatar">
+                                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                       <path d="M14.274 10.291a4 4 0 1 0 -5.554 -5.58m-.548 3.453a4.01 4.01 0 0 0 2.62 2.65"></path>
-                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 1.147 .167m2.685 2.681a4 4 0 0 1 .168 1.152v2"></path>
-                                       <line x1="3" y1="3" x2="21" y2="21"></line>
+                                       <circle cx="9" cy="7" r="4"></circle>
+                                       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                       <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                       <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
                                     </svg>
                                 </span>
                             </div>
                             <div class="col">
                                 <div class="font-weight-medium">
-                                    132 Kullanıcı
+                                    {{ $User->count() }} Kullanıcı
                                 </div>
                                 <div class="text-muted">
-                                    Silinmiş Kullanıcı Sayısı
+                                    Toplam Kullanıcı Sayısı
                                 </div>
                             </div>
                         </div>
