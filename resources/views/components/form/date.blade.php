@@ -1,3 +1,9 @@
-<div>
-    <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
+<div class="form-group mb-3 row">
+    <label class="form-label col-2 col-form-label">{{$label}}</label>
+    <div class="col">
+        {{Form::date($name, null, ["class" => $class . (($errors->has($name))?" is-invalid":"")])}}
+        @if($errors->has($name))
+            <div class="invalid-feedback" style="display: block">{{$errors->first($name)}}</div>
+        @endif
+    </div>
 </div>

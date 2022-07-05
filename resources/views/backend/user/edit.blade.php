@@ -30,7 +30,24 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <x-form-inputtext label="Slider Adı" name="title"/>
+                    <x-form-inputtext label="TCKN" name="tckn"/>
+                    <x-form-inputtext label="Ad" name="getUser.name"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+
+                    <div class="form-group mb-3 row">
+                        <label class="form-label col-2 col-form-label">D.Tarihi</label>
+                        <div class="col">
+                            <input class="form-control" type="date" value="{{ date('Y-m-d') }}">
+                        </div>
+                    </div>
+
+                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyad" name="surname"/>
+
                 </div>
             </div>
         </div>

@@ -26,11 +26,11 @@
                 @foreach($All as $item)
                 <div class="col-md-6 col-lg-3">
                     <div class="card">
-                        <div class="card-body p-4 text-center">
-                            <span class="avatar avatar-xl mb-3 avatar-rounded" style="background-image: url({{ (!$item->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('page')}})"></span>
+                        <div class="card-body p-2 text-center">
+                            <span class="avatar avatar-xl mb-2 avatar-rounded" style="background-image: url({{ (!$item->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('page')}})"></span>
                             <h3 class="m-0 mb-1"><a href="#">{{ $item->getUser->name.' '.$item->surname }}</a></h3>
                             <div class="text-muted">{{ $item->education.' '.$item->workplace }}</div>
-                            <div class="mt-3">
+                            <div class="mt-2">
                                 @if($item->status == 1)
                                 <span class="badge bg-success">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-thumb-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

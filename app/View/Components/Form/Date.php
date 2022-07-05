@@ -6,21 +6,19 @@ use Illuminate\View\Component;
 
 class Date extends Component
 {
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public $label;
+    public $name;
+    public $class;
+    public $column;
+
+    public function __construct($label, $name, $class = "form-control",$column=3)
     {
-        //
+        $this->label = $label;
+        $this->name = $name;
+        $this->class = $class;
+        $this->column = $column;
     }
 
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
-     */
     public function render()
     {
         return view('components.form.date');
