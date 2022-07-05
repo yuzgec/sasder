@@ -31,9 +31,6 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::get('/kongre/{url}', 'HomeController@kongredetay')->name('kongredetay');
     Route::get('/kongrelerimiz', 'HomeController@kongre')->name('kongrelerimiz');
 
-
-
-
     Route::group(["prefix"=>"go", 'middleware' => ['auth', 'admin']],function() {
         Route::get('/', 'DashboardController@index')->name('go');
         Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
@@ -63,4 +60,5 @@ use Spatie\Sitemap\SitemapGenerator;
         Route::auto('/speaker', SpeakerController::class);
         Route::auto('/event', EventController::class);
         Route::auto('/event-categories', EventCategoryController::class);
+        Route::auto('/user', UserController::class);
     });

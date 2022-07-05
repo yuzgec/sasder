@@ -13,12 +13,11 @@ class DashboardController extends Controller
 {
     public function index(){
         $Project = Project::count();
-        $Video = Video::count();
         $Team = Team::count();
         $Event = Event::count();
         $User = UserDetails::with('getUser')->paginate(10);
         $Form = Form::limit(10)->get();
         //dd($User);
-        return view('backend.index', compact('Project', 'Video', 'Team', 'Form', 'User', 'Event'));
+        return view('backend.index', compact('Project','Team', 'Form', 'User', 'Event'));
     }
 }

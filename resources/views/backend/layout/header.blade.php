@@ -34,7 +34,7 @@
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <a href="https://www.sasder.org" class="dropdown-item">Siteyi Önizle</a>
+                    <a href="https://www.sasder.org">Siteyi Önizle</a>
                     <a href="#" class="dropdown-item">Hesabım</a>
                     <a href="#" class="dropdown-item">Duyurular</a>
                     <div class="dropdown-divider"></div>
