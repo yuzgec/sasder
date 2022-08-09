@@ -46,10 +46,18 @@ class HomeController extends Controller
 
         //dd($New);
 
+/*        if($request->title == 'Başvuru'){
+            Mail::send("frontend.mail.form", compact('New'),function ($message) use($New) {
+                $message->to(MAIL_RUBIKON)->subject($New->name.' | SASDER '.$New->title.' formu');
+            });
+        }
+
         Mail::send("frontend.mail.form", compact('New'),function ($message) use($New) {
             $message->to(MAIL_SEND)->subject($New->name.' | SASDER '.$New->title.' formu');
-        });
+        });*/
 
+
+        return redirect()->route('iletisim', ['durum' => 'basarili']);
 
     }
 
@@ -153,7 +161,7 @@ class HomeController extends Controller
     }
 
     public function iletisim(){
-        $Cookies = Page::where('id',6)->first();
+        @$Cookies = Page::where('id',6)->first();
         return view('frontend.sayfa.iletisim', compact('Cookies'));
     }
 

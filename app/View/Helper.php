@@ -6,7 +6,8 @@
     define('SWEETALERT_MESSAGE_DELETE', 'Silindi');
     define('CARGO_LIMIT', 69.90);
     define('CARGO_PRICE', 29.90);
-    define('MAIL_SEND', 'olcayy@gmail.com');
+    define('TEST_MAIL', 'info@sasder.org');
+    define('MAIL_SEND', 'info@sasder.org');
     define('MAIL_RUBIKON', 'info@rubikonturizm.com');
 
     //KULLANICI ADI BAŞ HARFLERİNİ GÖSTERME
