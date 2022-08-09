@@ -31,9 +31,8 @@ class HomeController extends Controller
         return view('frontend.uyelik.register', compact('Cookies'));
     }
 
-    public function form(FormSiteRequest $request){
-        //dd($request->all());
-
+    public function form(FormSiteRequest $request)
+    {
         $New = new Form;
         $New->title = $request->title;
         $New->name = $request->name;
@@ -44,9 +43,7 @@ class HomeController extends Controller
         $New->company = $request->company;
         $New->save();
 
-        //dd($New);
-
-/*        if($request->title == 'Başvuru'){
+        if($request->title == 'Başvuru'){
             Mail::send("frontend.mail.form", compact('New'),function ($message) use($New) {
                 $message->to(MAIL_RUBIKON)->subject($New->name.' | SASDER '.$New->title.' formu');
             });
@@ -54,8 +51,7 @@ class HomeController extends Controller
 
         Mail::send("frontend.mail.form", compact('New'),function ($message) use($New) {
             $message->to(MAIL_SEND)->subject($New->name.' | SASDER '.$New->title.' formu');
-        });*/
-
+        });
 
         return redirect()->route('iletisim', ['durum' => 'basarili']);
 
