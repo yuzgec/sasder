@@ -95,8 +95,9 @@
                                     <tbody>
                                     @foreach($Konusmacilar->where('speaker_day', $item->speaker_day) as $row)
                                     <tr>
-                                        <td>  {{ $row->speaker_name }}
-                                        </td>
+                                        @if($Detay->id != 8 )
+                                        <td>{{ $row->speaker_name }}</td>
+                                        @endif
                                         <td class="justify-content-center">{{ $row->speaker_subject }}</td>
                                     </tr>
                                     @endforeach
