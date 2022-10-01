@@ -119,6 +119,9 @@
                                 <a class="nav-link active" href="#genel" data-bs-toggle="tab">Genel Bilgiler</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#kayit" data-bs-toggle="tab">Kayıt - Konaklama - Transfer</a>
                             </li>
                             <li class="nav-item">
@@ -131,6 +134,13 @@
                                 <div class="">
                                     {!! $Detay->tab1 !!}
                                  </div>
+                            </div>
+                            <div class="tab-pane" id="program">
+                                <div class="">
+                                    <object data="/9.pdf" type="application/pdf" frameborder="0" width="100%" height="2400px" style="padding: 20px;">
+                                        <embed src="/9.pdf" width="100%" height="2400px"/>
+                                    </object>
+                                </div>
                             </div>
                             <div class="tab-pane" id="kayit">
                                 <div class="">
