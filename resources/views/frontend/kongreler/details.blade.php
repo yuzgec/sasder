@@ -137,9 +137,6 @@
                             </div>
                             <div class="tab-pane" id="program">
                                 <div class="">
-{{--
-                                    <object data="/9.pdf" type="application/pdf" frameborder="0" width="100%" height="2400px" style="padding: 20px;"></object>
---}}
                                     <iframe src="/9.pdf" width="100%" height="2400px"></iframe>
                                 </div>
                             </div>
