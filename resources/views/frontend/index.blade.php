@@ -24,9 +24,7 @@
                         <a href="{{route('iletisim')}}" class="btn btn-modern btn-primary mt-3">İletişim</a>
                     </div>
                 </div>
-
             </div>
-
             @include('frontend.layout.uyeol')
         </div>
 
@@ -72,11 +70,8 @@
     </section>--}}
 
 
-
     <section class="section my-0 border-0 mt-2">
-
         <div class="container container-xl-custom">
-
             <div class="row justify-content-between align-items-center py-5">
                 <div class="col-lg-3">
                     <h4 class="text-primary text-3 font-weight-bold mb-2">SASDER</h4>
@@ -107,72 +102,23 @@
             </div>
         </div>
     </section>
-
-{{--
-    <section class="section my-0 border-0 bg-transparent">
-        <div class="container container-xl-custom py-5">
-            <div class="row">
-                <div class="col">
-                    <h3 class="mb-3">ETKİNLİKLER</h3>
-                </div>
-            </div>
-            <div class="row pt-2">
-                <div class="col-lg-6 mb-4">
-                    <div class="row align-items-center p-relative">
-                        <div class="col-lg-6">
-                            <img src="https://picsum.photos/500/300/?blur=2" class="img-fluid rounded" alt="Lorem Ipsum Dolor" />
-                        </div>
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-1 text-uppercase">10 Mayıs 2022</span>
-                            <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">ETKİNLİK ADI</h4>
-                            <p class="text-3 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                            <a href="#" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Oku<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-5 mt-lg-0 mb-4">
-                    <div class="row align-items-center p-relative">
-                        <div class="col-lg-6">
-                            <img src="https://picsum.photos/500/300/?blur=3" class="img-fluid rounded" alt="Lorem Ipsum Dolor" />
-                        </div>
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-1 text-uppercase">10 Mayıs 2022</span>
-                            <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">ETKİNLİK ADI</h4>
-                            <p class="text-3 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                            <a href="#" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Oku<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mb-4">
-                    <div class="row align-items-center p-relative">
-                        <div class="col-lg-6">
-                            <img src="https://picsum.photos/500/300/?blur=4" class="img-fluid rounded" alt="Lorem Ipsum Dolor" />
-                        </div>
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-1 text-uppercase">10 Mayıs 2022</span>
-                            <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">ETKİNLİK ADI</h4>
-                            <p class="text-3 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                            <a href="#" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Oku<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-5 mt-lg-0 mb-4">
-                    <div class="row align-items-center p-relative">
-                        <div class="col-lg-6">
-                            <img src="https://picsum.photos/500/300/?blur=5" class="img-fluid rounded" alt="Lorem Ipsum Dolor" />
-                        </div>
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-1 text-uppercase">10 Mayıs 2022</span>
-                            <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">ETKİNLİK ADI</h4>
-                            <p class="text-3 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                            <a href="#" class="btn btn-arrow-effect-1 ws-nowrap text-primary text-2 bg-transparent border-0 px-0 text-uppercase stretched-link">Devamını Oku<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
+    <div class="modal show" tabindex="-1" role="dialog" id="kongredetay">
+        <div class="modal-dialog" role="document" id="banner">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <a href="{{ route('kongredetay', '9-ulusal-kongre') }}">
+                        <img src="/9kongre.jpg" class="img-fluid">
+                    </a>
                 </div>
             </div>
         </div>
-    </section>--}}
+    </div>
 
 @endsection
-
+@section('customJS')
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('#kongredetay').modal('show');
+        });
+    </script>
+@endsection
