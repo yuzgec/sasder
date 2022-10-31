@@ -2,8 +2,6 @@
 @section('title', $Detay->title. ' SASDER Ulusal Kongre | '.config('app.name'))
 @section('content')
     @include('frontend.layout.header2')
-
-
     <section class="page-header page-header-modern bg-color-light-scale-1 page-header-lg">
         <div class="container container-xl-custom">
             <div class="row">
@@ -29,8 +27,8 @@
                 </div>
 
                 <div class="col-lg-4">
-                    @if($Detay->form == 1)
-                        <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
+
+                      {{--  <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
                         <form class="contact-form-recaptcha-v3" action="{{ route('form') }}" method="POST">
                             <input type="hidden" name="title" value="Başvuru">
                             @csrf
@@ -76,8 +74,8 @@
                                 </div>
                             </div>
                         </form>
+--}}
 
-                     @else
                     <div class="tabs">
                         <ul class="nav nav-tabs">
                             @foreach($Days as $item)
@@ -111,7 +109,7 @@
                     </div>
                      @endif
                 </div>
-                @if($Detay->form == 1)
+                @if($Detay->id == 9)
                     <div class="col-md-12">
                     <div class="tabs tabs-bottom tabs-center tabs-simple">
                         <ul class="nav nav-tabs">
@@ -180,7 +178,6 @@
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>13:30 - 14:30</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>TEMA KONUŞMACISI 1<br />
 			Banu K&uuml;&ccedil;&uuml;kel- <span style="font-size:11pt">&nbsp;TOBB Sağlık Hizmetleri Meclisi Başkanı</span></strong></span></td>
-
                                         </tr>
                                         <tr>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14:45</span></td>
@@ -216,7 +213,6 @@
                                         <tr>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:00 - 16:20</span></td>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
                                         </tr>
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>16:20 - 17:35</strong></span></td>
