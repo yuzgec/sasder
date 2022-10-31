@@ -26,9 +26,9 @@
                     {!! $Detay->desc !!}
                 </div>
 
-                <div class="col-lg-4">
+                {{--<div class="col-lg-4">
 
-                      {{--  <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
+                      --}}{{--  <h2 class="font-weight-bold text-7 mt-2 mb-0">KAYIT FORMU</h2>
                         <form class="contact-form-recaptcha-v3" action="{{ route('form') }}" method="POST">
                             <input type="hidden" name="title" value="Başvuru">
                             @csrf
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                         </form>
---}}
+--}}{{--
 
                     <div class="tabs">
                         <ul class="nav nav-tabs">
@@ -107,7 +107,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div>--}}
                 @if($Detay->id == 9)
                     <div class="col-md-12">
                     <div class="tabs tabs-bottom tabs-center tabs-simple">
@@ -576,6 +576,7 @@
                     </div>
                 </div>
                 @endif
+
                 <div class="col-md-12">
                     <div class="masonry-loader masonry-loader-showing">
                     <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
