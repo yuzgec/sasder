@@ -107,7 +107,6 @@
                         </div>
 
                     </div>
-                     @endif
                 </div>
                 @if($Detay->id == 9)
                     <div class="col-md-12">
