@@ -183,12 +183,12 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14-:45</span></td>
+                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14:45</span></td>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
 
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:45 - 16:05</strong></span></td>
+                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:45 - 16:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>PANEL 1: YENİ &Ccedil;AĞIN LİDERLİK ANLAYIŞI<br />
 			Oturum Başkanı: İsmail Cinel - <span style="font-size:11pt">Kongre Bilimsel Kurul Başkanı, Acıbadem Ataşehir Hastanesi Yoğun Bakım Sorumlusu</span></strong></span></td>
 
@@ -200,7 +200,7 @@
                                         </tr>
                                         <tr>
                                             <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">15:05 - 15:25</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Yılmaz Arg&uuml;den</strong></span> <span style="font-size:11pt">- ARGE Danışmanlık Y&ouml;netim Kurulu Başkanı</span></span></td>
+                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Dr. Yılmaz Arg&uuml;den</strong></span> <span style="font-size:11pt">- ARGE Danışmanlık Y&ouml;netim Kurulu Başkanı</span></span></td>
 
                                         </tr>
                                         <tr>
@@ -260,18 +260,17 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="    height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="    text-align:left;">&nbsp;</td>
+                                            <td style="height:20px; text-align:left;">&nbsp;</td>
+                                            <td style="text-align:left;">&nbsp;</td>
 
                                         </tr>
                                         <tr>
-                                            <td style="    height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="    text-align:left;">&nbsp;</td>
+                                            <td style="height:20px; text-align:left;">&nbsp;</td>
+                                            <td style="text-align:left;">&nbsp;</td>
 
                                         </tr>
                                         <tr>
                                             <td colspan="2" style="background-color:#00509d ; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px; text-align:center;"><span style="font-size:19px"><span style="color:white"><strong>4 KASIM 2022, CUMA</strong></span></span></td>
-
                                         </tr>
                                         <tr>
                                             <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px"><strong>SAAT</strong></span></td>
@@ -279,9 +278,9 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>09:00 -10:40</strong></span></td>
+                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>09:00 -10:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 3: BUG&Uuml;NDEN YARINA &Ouml;ZEL SAĞLIK SİGORTALARI<br />
-			Oturum Başkanı : Can Kantar - <span style="font-size:11pt">Sigorta Medya Genel M&uuml;d&uuml;r&uuml;&nbsp;</span></strong></span></td>
+			                                Oturum Başkanı : Can Kantar - <span style="font-size:11pt">Sigorta Medya Genel M&uuml;d&uuml;r&uuml;&nbsp;</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -343,7 +342,8 @@
                                         </tr>
                                         <tr>
                                             <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">11:30 - 11:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>&Ouml;mer Buğra Bahadır </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">Novo Nordisk Klinik Medikal ve Ruhsat Direkt&ouml;r&uuml;</span></span></td>
+                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>&Ouml;mer Buğra Bahadır </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">
+                                                        Novo Nordisk Klinik Medikal ve Ruhsatlandırma Direkt&ouml;r&uuml;</span></span></td>
 
                                         </tr>
                                         <tr>
@@ -358,7 +358,7 @@
                                         </tr>
                                         <tr>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:35px; text-align:left;"><span style="font-size:15px"><strong>13:30-14:30</strong></span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px"><strong>Sunay Akın İle &quot;G&ouml;r&ccedil;ek&quot;</strong></span></td>
+                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px"><strong>Sunay Akın İle Söyleşi</strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -398,7 +398,7 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>16:30-18:10</strong></span></td>
+                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>16:30-17:50</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 6: İLA&Ccedil; END&Uuml;STRİSİNİ GELECEKTE NE BEKLİYOR?<br />
 			Oturum Başkanı: Simten Malhan - <span style="font-size:11pt">Başkent &Uuml;niversitesi Sağlık Bilimleri Fak&uuml;ltesi Dekanı</span></strong></span></td>
 
@@ -433,8 +433,8 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="    height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="    text-align:left;">&nbsp;</td>
+                                            <td style="height:20px; text-align:left;">&nbsp;</td>
+                                            <td style="text-align:left;">&nbsp;</td>
 
                                         </tr>
                                         <tr>
@@ -516,7 +516,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>14:00-15:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>TEMA KONUŞMACISI 2<br />
-			Konuşmacı: Mustafa &Ccedil;etiner - <span style="font-size:11pt">Acıbadem Maslak Hastanesi, Hematoloji Uzmanı</span></strong></span></td>
+			                                Konuşmacı: Mustafa &Ccedil;etiner - <span style="font-size:11pt">Acıbadem Maslak Hastanesi, Hematoloji Uzmanı</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -525,9 +525,10 @@
 
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>15:15 - 17:00</strong></span></td>
+                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>15:15 - 16:30</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 9 : TIBBİ CİHAZ VE MALZEME SEKT&Ouml;R&Uuml;NDEKİ SORUNLAR VE &Ccedil;&Ouml;Z&Uuml;M &Ouml;NERİLERİ<br />
-			Oturum Başkanı: Kemal Yaz - <span style="font-size:11pt">T&Uuml;MDEF Y&ouml;netim Kurulu Başkanı</span></strong></span></td>
+			                                    Oturum Başkanı: Kemal Yaz - <span style="font-size:11pt">T&Uuml;MDEF Y&ouml;netim Kurulu Başkanı</span></strong></span>
+                                            </td>
 
                                         </tr>
                                         <tr>
