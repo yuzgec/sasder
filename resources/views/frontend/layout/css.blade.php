@@ -13,8 +13,6 @@
 <link rel="stylesheet" href="/frontend/css/theme.css">
 <link rel="stylesheet" href="/frontend/css/theme-elements.css">
 <link id="skinCSS" rel="stylesheet" href="/frontend/css/skins/default.css">
-<meta name="robots" content="noindex">
-
 <livewire:styles />
 
 
