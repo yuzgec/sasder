@@ -5,9 +5,7 @@
 
 return [
     'meta' => [
-        /*
-         * The default configurations to be used by the meta generator.
-         */
+
         'defaults'       => [
             'title'        => "SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ | SASDER", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
@@ -15,13 +13,14 @@ return [
             'separator'    => ' - ',
             'keywords'     => [],
             'canonical'    => false, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
-            'robots'       => false, // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
+            'robots'       => 'all', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
          * Webmaster tags are always added.
          */
+
         'webmaster_tags' => [
-            'google'    => null,
+            'google'    => "XGvcxmp72n_mO6QTHLk749ykHL7_wjdU0Gqr2dNv160",
             'bing'      => null,
             'alexa'     => null,
             'pinterest' => null,

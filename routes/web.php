@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Spatie\Sitemap\SitemapGenerator;
 
     Route::get('/sitemap', function(){
-        SitemapGenerator::create('https://kiblegah.test/')->getSitemap()->writeToDisk('public', 'sitemap.xml');
+        SitemapGenerator::create('https://sasderorg.test/')->getSitemap()->writeToDisk('public', '/sitemap.xml');
     });
 
     Auth::routes();
