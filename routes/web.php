@@ -4,10 +4,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Spatie\Sitemap\SitemapGenerator;
 
-    Route::get('/sitemap', function(){
-        SitemapGenerator::create('https://sasderorg.test/')->getSitemap()->writeToDisk('public', '/sitemap.xml');
-    });
-
     Auth::routes();
 
     Route::get('/', 'HomeController@index')->name('home');
