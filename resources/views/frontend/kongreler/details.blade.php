@@ -108,7 +108,7 @@
 
                     </div>
                 </div>--}}
-                @if($Detay->id == 9)
+                @if($Detay->id == 10)
                     <div class="col-md-12">
                     <div class="tabs tabs-bottom tabs-center tabs-simple">
                         <ul class="nav nav-tabs">
@@ -135,7 +135,9 @@
                             <div class="tab-pane" id="program">
                                 <div class="">
 
-                                    <table>
+                                    <h3>Program Güncelleniyor...</h3>
+
+                                    {{-- <table>
                                         <tbody>
                                         <tr>
                                             <td colspan="2" style="background-color:#00509d ; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:25px; text-align:center;">
@@ -176,7 +178,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>13:30 - 14:30</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>TEMA KONUŞMACISI 1<br />
-			Banu K&uuml;&ccedil;&uuml;kel- <span style="font-size:11pt">&nbsp;TOBB Sağlık Hizmetleri Meclisi Başkanı</span></strong></span></td>
+			                            Banu K&uuml;&ccedil;&uuml;kel- <span style="font-size:11pt">&nbsp;TOBB Sağlık Hizmetleri Meclisi Başkanı</span></strong></span></td>
                                         </tr>
                                         <tr>
                                             <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14:45</span></td>
@@ -186,7 +188,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:45 - 16:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>PANEL 1: YENİ &Ccedil;AĞIN LİDERLİK ANLAYIŞI<br />
-			Oturum Başkanı: İsmail Cinel - <span style="font-size:11pt">Kongre Bilimsel Kurul Başkanı, Acıbadem Ataşehir Hastanesi Yoğun Bakım Sorumlusu</span></strong></span></td>
+			                                Oturum Başkanı: İsmail Cinel - <span style="font-size:11pt">Kongre Bilimsel Kurul Başkanı, Acıbadem Ataşehir Hastanesi Yoğun Bakım Sorumlusu</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -216,7 +218,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>16:20 - 17:35</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>PANEL 2: NEDEN DEĞER TEMELLİ SAĞLIK<br />
-			Oturum Başkanı: Haluk &Ouml;zsarı - <span style="font-size:11pt">Sağlık Bilimleri Fak&uuml;ltesi &Ouml;ğretim &Uuml;yesi</span></strong></span></td>
+			                                Oturum Başkanı: Haluk &Ouml;zsarı - <span style="font-size:11pt">Sağlık Bilimleri Fak&uuml;ltesi &Ouml;ğretim &Uuml;yesi</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -242,7 +244,7 @@
                                         <tr>
                                             <td style="background-color:#ededed; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:43px; text-align:left;"><span style="font-size:15px"><strong>17:35-18:30</strong></span></td>
                                             <td style="background-color:#ededed; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>Konferans:<br />
-			Sağlıkta Mavi Okyanus Stratejisi ile Yalın Hastanecilik Yaklaşımı</strong></span></td>
+			                            Sağlıkta Mavi Okyanus Stratejisi ile Yalın Hastanecilik Yaklaşımı</strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -306,7 +308,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:60px; text-align:left;"><span style="font-size:15px"><strong>10:15-11:10</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><span style="font-size:11pt"><strong>SEKT&Ouml;R KONUŞUYOR :KAMU &amp; &Ouml;ZEL SAĞLIK HİZMET SUNUCULARI PERSPEKTİFİNDEN SAĞLIKTA GELECEĞİN VİZYONU</strong></span><br />
-			<span style="font-size:11pt"><strong>Oturum Başkanı : Levent Yiğit - </strong></span><span style="font-size:11pt">SASDER Y&ouml;netim Kurulu Başkanı</span></span></td>
+			                            <span style="font-size:11pt"><strong>Oturum Başkanı : Levent Yiğit - </strong></span><span style="font-size:11pt">SASDER Y&ouml;netim Kurulu Başkanı</span></span></td>
 
                                         </tr>
                                         <tr>
@@ -327,7 +329,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>11:10-12:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 4: OBEZİTENİN FİNANSAL Y&Uuml;K&Uuml;<br />
-			Oturum Başkanı: B&uuml;lent Antmen - <span style="font-size:11pt">Acıbadem Adana Hastanesi, &Ccedil;ocuk Hastalıkları Uzmanı</span></strong></span></td>
+			                            Oturum Başkanı: Bülent Antmen - <span style="font-size:11pt">Acıbadem Adana Hastanesi, &Ccedil;ocuk Hastalıkları Uzmanı</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -359,7 +361,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:30-16:10</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 5: HASTANELERDE BUG&Uuml;N VE GELECEK<br />
-			Oturum Başkanı: Ali Haberal - <span style="font-size:11pt">Başkent &Uuml;nivesitesi Sağlık Kuruluşları Direkt&ouml;r&uuml;</span></strong></span></td>
+			                            Oturum Başkanı: Ali Haberal - <span style="font-size:11pt">Başkent &Uuml;nivesitesi Sağlık Kuruluşları Direkt&ouml;r&uuml;</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -395,7 +397,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>16:30-17:50</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 6: İLA&Ccedil; END&Uuml;STRİSİNİ GELECEKTE NE BEKLİYOR?<br />
-			Oturum Başkanı: Simten Malhan - <span style="font-size:11pt">Başkent &Uuml;niversitesi Sağlık Bilimleri Fak&uuml;ltesi Dekanı</span></strong></span></td>
+			                            Oturum Başkanı: Simten Malhan - <span style="font-size:11pt">Başkent &Uuml;niversitesi Sağlık Bilimleri Fak&uuml;ltesi Dekanı</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -444,7 +446,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:61px;"><span style="font-size:15px"><strong>09:30-10:45</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 7: GELECEĞİN SAĞLIĞI SAĞLIĞIN GELECEĞİ<br />
-			Oturum Başkanı: Metin &Ccedil;akmak&ccedil;ı</strong></span></td>
+			                            Oturum Başkanı: Metin &Ccedil;akmak&ccedil;ı</strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -475,7 +477,7 @@
                                         <tr>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:60px;"><span style="font-size:15px"><strong>11:00-12:00</strong></span></td>
                                             <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 8 : YAŞLANAN N&Uuml;FUS VE ARTAN SAĞLIK HARCAMALARI<br />
-			Oturum Başkanı: Vildan Kandemir B&uuml;t&uuml;n - <span style="font-size:11pt">Okyanus Yaşlı Bakım Merkezleri Kurucusu ve Uluslararası Geriatri Danışmanı</span></strong></span></td>
+			                            Oturum Başkanı: Vildan Kandemir B&uuml;t&uuml;n - <span style="font-size:11pt">Okyanus Yaşlı Bakım Merkezleri Kurucusu ve Uluslararası Geriatri Danışmanı</span></strong></span></td>
 
                                         </tr>
                                         <tr>
@@ -557,7 +559,7 @@
 
                                         </tr>
                                         </tbody>
-                                    </table>
+                                    </table> --}}
 
                                 </div>
                             </div>

@@ -19,7 +19,6 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::get('/etkinlikler', 'HomeController@etkinlikler')->name('etkinlikler');
     Route::get('/etkinlik/{kategori}/{url}', 'HomeController@etkinlik')->name('etkinlik');
 
-
     Route::get('/kurumsal/{url}', 'HomeController@kurumsal')->name('kurumsal');
     Route::get('/yonetimkurulu', 'HomeController@yonetimkurulu')->name('yonetimkurulu');
     Route::get('/yonetimkurulu/{url}', 'HomeController@yonetimdetay')->name('yonetimdetay');
