@@ -9,12 +9,12 @@
                 <div class="d-flex flex-column align-items-center justify-content-center h-100">
                     <h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium ls-0 px-4 mb-1 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-plugin-options="{'minWindowWidth': 0}">
 													<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-7">
-														<img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+														<img src="/frontend/img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
 													</span>
                         SAĞLIK VE SİGORTA YÖNETİCİLERİ DERNEĞİ
 
                         <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-7">
-														<img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation"
+														<img src="/frontend/iimg/slides/slide-title-border-light.png" class="w-auto appear-animation"
                                                              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250"
                                                              data-plugin-options="{'minWindowWidth': 0}" alt="" />
 													</span>
@@ -25,7 +25,7 @@
                        data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Kısa Açıklama yazısı gelebilir yada kaldırılabilir.</p>--}}
                     <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2300">
                         <div class="d-flex align-items-center mt-2">
-                            <a href="iletisim" class="btn btn-light btn-modern text-color-primary font-weight-bold text-2 py-3 btn-px-4">İLETİŞİME GEÇ</a>
+                            <a href="{{ route('iletisim') }}" class="btn btn-light btn-modern text-color-primary font-weight-bold text-2 py-3 btn-px-4">İLETİŞİME GEÇ</a>
 {{--
                             <a href="/kongre/8-ulusal-kongre" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 ms-4">DETAYLI BİLGİ<i class="fas fa-arrow-right ms-2"></i></a>
 --}}
