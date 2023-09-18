@@ -170,7 +170,7 @@
             <div class="card-body">
                 <div class="card-status-bottom bg-primary"></div>
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">Kullanıcı Listesi [{{$User->count()}}]</div>
+                    <div class="card-title">Kullanıcı Listesi [{{$User->total()}}]</div>
                     <div>{{ $User->appends(['sort' => 'uyeler'])->links() }}</div>
                 </div>
 

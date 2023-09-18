@@ -1,5 +1,5 @@
 @extends('backend.layout.app')
-@section('title', $Edit->title.' | Kullanıcı Düzenle')
+@section('title', $Edit->getUser->name.' '. $Edit->surname .' | Kullanıcı Düzenle')
 @section('content')
     {{Form::model($Edit, ["route" => ["user.update", $Edit->id],'enctype' => 'multipart/form-data'])}}
     @method('PUT')
@@ -16,10 +16,6 @@
                     </div>
                     <div>
                         <a class="btn btn-tabler btn-sm p-2" href="{{  url()->previous() }}" title="Geri">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" /><line x1="10" y1="14" x2="20" y2="4" /><polyline points="15 4 20 4 20 9" /></svg>
-                            Önizle
-                        </a>
-                        <a class="btn btn-tabler btn-sm p-2" href="{{  url()->previous() }}" title="Geri">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 18v-6a3 3 0 0 0 -3 -3h-10l4 -4m0 8l-4 -4" /></svg>
                             Geri
                         </a>
@@ -31,23 +27,34 @@
                 </div>
                 <div class="card-body">
                     <x-form-inputtext label="TCKN" name="tckn"/>
-                    <x-form-inputtext label="Ad" name="getUser.name"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
+
 
                     <div class="form-group mb-3 row">
-                        <label class="form-label col-2 col-form-label">D.Tarihi</label>
+                        <label class="form-label col-2 col-form-label">Adı</label>
                         <div class="col">
-                            <input class="form-control" type="date" value="{{ date('Y-m-d') }}">
+                            <input class="form-control" type="text" value="{{ $Edit->getUser->name }}">
                         </div>
                     </div>
 
-                    <x-form-inputtext label="Soyad" name="surname"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
-                    <x-form-inputtext label="Soyad" name="surname"/>
+                    <x-form-inputtext label="Soyadı" name="surname"/>
+                    <x-form-inputtext label="D.Tarihi" name="birthday"/>
 
+                   <div class="form-group mb-3 row">
+                        <label class="form-label col-2 col-form-label">Email</label>
+                        <div class="col">
+                            <input class="form-control" type="text" value="{{ $Edit->getUser->email }}">
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3 row">
+                        <label class="form-label col-2 col-form-label">Telefon</label>
+                        <div class="col">
+                            <input class="form-control" type="text" value="{{ $Edit->getUser->phone }}">
+                        </div>
+                    </div>
+
+                    <x-form-inputtext label="Çalıştığı Yer" name="workplace"/>
+                    <x-form-inputtext label="Görevi" name="mission"/>
                 </div>
             </div>
         </div>

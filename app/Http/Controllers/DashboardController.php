@@ -15,7 +15,7 @@ class DashboardController extends Controller
         $Project = Project::count();
         $Team = Team::count();
         $Event = Event::count();
-        $User = UserDetails::with('getUser')->paginate(10);
+        $User = UserDetails::with('getUser')->paginate(15);
         $Form = Form::limit(10)->get();
         //dd($User);
         return view('backend.index', compact('Project','Team', 'Form', 'User', 'Event'));
