@@ -135,431 +135,660 @@
                             <div class="tab-pane" id="program">
                                 <div class="">
 
-                                    <h3>Program Güncelleniyor...</h3>
 
-                                    {{-- <table>
+                                    <div class="WordSection1">
+                                        <table cellspacing="0" class="TableNormal" style="border-collapse:collapse; border:none; margin-left:9px">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2" style="background-color:#212b35; border-bottom:1px solid black; border-left:2px solid black; border-right:none; border-top:2px solid black; height:26px; vertical-align:top; width:725px">
+                                                    <p style="margin-left:258px; margin-right:256px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:15.5pt"><span style="color:white">2 Kasım 2023 Perşembe</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:5px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">Saat</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:216px; margin-right:214px; text-align:center"><span style="font-size:11pt"><strong><span style="color:white">PANEL Adı/Moderat&ouml;r/Konuşmacı</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:23px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">12:30-13:30</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:23px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">A&Ccedil;ILIŞ T&Ouml;RENİ</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:30-12:40</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Levent Yiğit </span></strong><span style="font-size:9.0pt">- Kongre Başkanı, SASDER YK Başkanı, Anadolu Sağlık Merkezi İş Geliştirme ve Satış Direkt&ouml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:40-13:00</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. Simten Malhan </span></strong><span style="font-size:9.0pt">- Kongre Bilimsel Kurul Başkanı / G&uuml;ven Hastanesi Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">13:00-13:30</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Dr. Şuayip Birinci </span></strong><span style="font-size:9.0pt">- TC. Sağlık Bakanlığı Bakan Yardımcısı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">13:30-14:50</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 1:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">DOĞAL AFETLER / AFET Y&Ouml;NETİMİ / PANDEMİ (HALK SAĞLIĞI)</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Leyla Şeker - </span></span></strong><span style="font-size:9.5pt"><span style="color:white">Lokman Hekim Sağlık Vakfı Y&ouml;netim Kurulu Başkanı</span></span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">13:30-13:50</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. &Ouml;nder Erg&ouml;n&uuml;l </span></strong><span style="font-size:9.0pt">- Ko&ccedil; &Uuml;niversitesi Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Anabilim Dalı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">13:50-14:10</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. Celal Şeng&ouml;r - </span></strong><span style="font-size:9.0pt">Akademisyen, Jeolog, Yazar</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">14:10-14:30</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. Naci G&ouml;r&uuml;r - </span></strong><span style="font-size:9.0pt">İstanbul Teknik &Uuml;niversitesi Maden Fak&uuml;ltesi Jeoloji M&uuml;hendisliği B&ouml;l&uuml;m&uuml; &Ouml;ğretim &Uuml;yesi</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">14:30-14:50</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">14:50-15:00</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:00-16:00</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Sunay Akın - </span></strong><span style="font-size:9.0pt">Şair, Yazar, Gazeteci, Araştırmacı ve Tiyatro Oyuncusu</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">16:00 - 16:50</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 2:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA SAĞLIK Y&Ouml;NETİMİ</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. Ahmet Demircan - </span></span></strong><span style="font-size:9.5pt"><span style="color:white">Gazi &Uuml;niversitesi Tıp Fak&uuml;ltesi</span></span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">16:00-16:20</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Banu K&uuml;&ccedil;&uuml;kel </span></strong><span style="font-size:9.0pt">- G&uuml;ven Sağlık Grubu Y&ouml;netim Kurulu Başkanlığı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">16:20-16:40</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Hakan Adanalı </span></strong><span style="font-size:9.0pt">- CCN Group Y&ouml;netim Kurulu &Uuml;yesi</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">16:40-16:50</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">16:50-17:00</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">17:00 - 18:00</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 3:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">DOĞAL AFETLERDE SAĞLIK SİSTEMİMİZ</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. Kemal Memişoğlu </span></span></strong><span style="font-size:9.5pt"><span style="color:white">- İstanbul İl Sağlık M&uuml;d&uuml;r&uuml;</span></span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">17:00-17:15</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Do&ccedil;. Dr. Eray &Ccedil;ınar </span></strong><span style="font-size:9.0pt">- Acil Sağlık Hizmetleri Genel M&uuml;d&uuml;rl&uuml;ğ&uuml; Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">17:15-17:30</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Uzm. Dr. Yılmaz Aydın </span></strong><span style="font-size:9.0pt">- İstanbul İl Sağlık M&uuml;d&uuml;rl&uuml;ğ&uuml; Başkan Yardımcısı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">17:30-17:45</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Do&ccedil;. Dr. Kurtuluş A&ccedil;ıksarı </span></strong><span style="font-size:9.0pt">-S&uuml;leyman Yal&ccedil;ın Şehir Hastanesi Acil Tıp Kliniği Eğitim Sorumlusu</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">17:45-18:00</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <p>&nbsp;</p>
+
+                                        <table cellspacing="0" class="TableNormal" style="border-collapse:collapse; border:none; margin-left:9px">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2" style="background-color:#212b35; border-bottom:1px solid black; border-left:2px solid black; border-right:none; border-top:2px solid black; height:26px; vertical-align:top; width:726px">
+                                                    <p style="margin-left:277px; margin-right:275px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:15.5pt"><span style="color:white">3 Kasım 2023 Cuma</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:30px; margin-right:27px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">Saat</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:216px; margin-right:214px; text-align:center"><span style="font-size:11pt"><strong><span style="color:white">PANEL Adı/Moderat&ouml;r/Konuşmacı</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div style="page-break-after:always">&nbsp;</div>
+
+                                    <div class="WordSection2">
+                                        <table cellspacing="0" class="TableNormal" style="border-collapse:collapse; border:none; margin-left:8px">
+                                            <tbody>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">09:30-10:45</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 4:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYET&#39;İN 100. YILINDA SAĞLIK İLETİŞİMİ</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r : Meri İstroti - </span></span></strong><span style="font-size:9.5pt"><span style="color:white">Liv Hospital Grup Koordinat&ouml;r&uuml;</span></span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">09:30-09:50</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Dr. İbrahim Ersoy </span></strong><span style="font-size:9.0pt">- Gazeteci, Medimagazin Gazetesi</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">09:50-10:10</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Yeşim Sert </span></strong><span style="font-size:9.0pt">&ndash; Gazeteci, Anadolu Ajansı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">10:10-10:30</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Ziyneti Kocabıyık </span></strong><span style="font-size:9.0pt">&ndash; T&uuml;rkiye Gazetesi Sağlık Edit&ouml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">10:30-10:45</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">10:45-10:55</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">10:55-13:05</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 5:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA SAĞLIK SEKT&Ouml;R&Uuml;NDE DİJİTALLEŞME VE YENİ TEKNOLOJİLER</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. Melih Bulut</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">10:55-11:15</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Fatma Zakaryan </span></strong><span style="font-size:9.0pt">- (CGM) CompuGroup Medical T&uuml;rkiye Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">11:15-11:35</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Nadya G&uuml;her </span></strong><span style="font-size:9.0pt">- Eczacıbaşı Evital Medikal Direkt&ouml;r&uuml;, DİSADER Genel Sekreteri</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">11:35-11:55</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Dr. Erhan Bulutcu </span></strong><span style="font-size:9.0pt">- Amerikan Hastanesi CEO</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">11:55-12:15</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Okan &Ouml;zdemir </span></strong><span style="font-size:9.0pt">- Allianz Sağlık Sigortaları Genel M&uuml;d&uuml;r Yardımcısı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:15-12:35</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Recai Serdar Gemici </span></strong><span style="font-size:9.0pt">- Co-Founder &amp; CEO Albert Health</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:35-12:55</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Yavuz &Ouml;lken - </span></strong><span style="font-size:9.0pt">Axa Sigorta Y&ouml;netim Kurulu Başkan Vekili &amp; CEO</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:55-13:05</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#a9d08e; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">13:05-14:00</span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#a9d08e; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">&Ouml;ĞLE ARASI</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">14:45-15:00</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">15:00-16:10</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 6:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA İLA&Ccedil; SEKT&Ouml;R&Uuml;</span></span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. B&uuml;lent Antmen</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:00-15:20</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Dr. &Uuml;mit Dereli </span></strong><span style="font-size:9.0pt">&ndash; AIFD Araştırmacı İla&ccedil; Firmaları Derneği Genel Sekreteri</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:20-15:40</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Savaş Malko&ccedil; </span></strong><span style="font-size:9.0pt">&ndash; IES İla&ccedil; End&uuml;strisi İşverenler Sendikası Genel Sekreteri</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:40-16:00</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Sami T&uuml;rkoğlu </span></strong><span style="font-size:9.0pt">&ndash; TİSD T&uuml;rkiye İla&ccedil; Sanayi Derneği Y&ouml;netim Kurulu &Uuml;yesi</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">16:00-16:10</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><span style="font-size:9.0pt">Tartışma</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">16:10-17:10</span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">B2B</span></strong></span></p>
+
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">Sigorta Şirketi - Sağlık Kurumları G&ouml;r&uuml;şmeleri</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <p>&nbsp;</p>
+
+                                        <table cellspacing="0" class="TableNormal" style="border-collapse:collapse; border:none; margin-left:9px">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2" style="background-color:#212b35; border-bottom:1px solid black; border-left:2px solid black; border-right:none; border-top:2px solid black; height:26px; vertical-align:top; width:725px">
+                                                    <p style="margin-left:258px; margin-right:256px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:15.5pt"><span style="color:white">4 Kasım 2023 Cumartesi</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:5px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">Saat</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#212b35; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:26px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:216px; margin-right:214px; text-align:center"><span style="font-size:11pt"><strong><span style="color:white">PANEL Adı/Moderat&ouml;r/Konuşmacı</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">09:30-10:30</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 7:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA SAĞLIK EĞİTİMİ</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. Haluk &Ouml;zsarı</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:27px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">09:30-09:50</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:27px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. Necmettin &Uuml;nal </span></strong><span style="font-size:9.0pt">- Ankara &Uuml;niversitesi Tıp Fak&uuml;ltesi &Ouml;ğr. &Uuml;yesi</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">09:50-10:10</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Prof. Dr. Ruşen Keleş </span></strong><span style="font-size:9.0pt">- Kent Bilimci, Araştırmacı, Yazar</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">10:10-10:30</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">11:10-11:35</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                    <p>&nbsp;</p>
+
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">11:35-13:15</span></span></strong></span></p>
+                                                </td>
+                                                <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 8:</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA SİGORTACILIK SEKT&Ouml;R&Uuml;NDE S&Uuml;RD&Uuml;R&Uuml;LEBİLİRLİK VE VERİMLİLİK</span></span></strong></span></p>
+
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Levent Yiğit - </span></span></strong><span style="font-size:8.5pt"><span style="color:white">Kongre Başkanı, SASDER YK Başkanı, Anadolu Sağlık Merkezi İş Geliştirme ve Satış Direkt&ouml;r&uuml;</span></span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">11:35-11:55</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Oktay Atay </span></strong><span style="font-size:9.0pt">- Allianz Sigorta Sağlık Grup Direkt&ouml;r&uuml;</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">11:55-12:15</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">&Ccedil;ağatay &Ccedil;ınar </span></strong><span style="font-size:9.0pt">- Sompo Sigorta Saglik Sigortalari Direkt&ouml;r&uuml; , TSB Sağlık Komitesi Bşk. Yrd .</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:15-12:35</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tuğba G&ouml;ken&ccedil; Buldu </span></strong><span style="font-size:9.0pt">- T&uuml;rkiye Sigorta Sağlık Sigortaları Genel M&uuml;d&uuml;r Yardımcısı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:35-12:55</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Emre Bayram </span></strong><span style="font-size:9.0pt">- Mapfre Bireysel Sigortalar Teknik Genel M&uuml;d&uuml;r Yardımcı</span></span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                    <p style="margin-left:8px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">12:55-13:15</span></span></p>
+                                                </td>
+                                                <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                    <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tartışma</span></strong></span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div style="page-break-after:always">&nbsp;</div>
+
+                                    <table cellspacing="0" class="TableNormal" style="border-collapse:collapse; border:none; margin-left:8px">
                                         <tbody>
                                         <tr>
-                                            <td colspan="2" style="background-color:#00509d ; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:25px; text-align:center;">
-                                                <span style="font-size:19px"><span style="color:white"><strong>3 KASIM 2022, PERŞEMBE</strong></span></span>
+                                            <td style="background-color:#a9d08e; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">13:15-14:10</span></strong></span></p>
                                             </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:center;"><span style="font-size:15px"><strong>SAAT</strong></span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:center;"><span style="font-size:15px"><strong>&nbsp;KONU/KONUŞMACI</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px; text-align:left;"><span style="font-size:15px">08:00 - 13:00</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Kayıt ve Otele Yerleşme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px;"><span style="font-size:15px"><strong>13:00 - 13:30</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><strong>A&Ccedil;ILIŞ T&Ouml;RENİ</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px;"><span style="font-size:15px">13:00 - 13:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Levent Yiğit</strong></span> <span style="font-size:11pt">- SASDER Y&ouml;netim Kurulu Başkanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px;"><span style="font-size:15px">13:10 - 13:20</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>İsmail Cinel</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Kongre Bilimsel Kurul Başkanı, Acıbadem Ataşehir Hastanesi Yoğun Bakım Sorumlusu</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">13:20 - 13:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Dr. Şuayip Birinci</strong></span> <span style="font-size:11pt">- T.C. Sağlık Bakanlığı, Sağlık Bakanı Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>13:30 - 14:30</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>TEMA KONUŞMACISI 1<br />
-			                            Banu K&uuml;&ccedil;&uuml;kel- <span style="font-size:11pt">&nbsp;TOBB Sağlık Hizmetleri Meclisi Başkanı</span></strong></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14:45</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:45 - 16:00</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>PANEL 1: YENİ &Ccedil;AĞIN LİDERLİK ANLAYIŞI<br />
-			                                Oturum Başkanı: İsmail Cinel - <span style="font-size:11pt">Kongre Bilimsel Kurul Başkanı, Acıbadem Ataşehir Hastanesi Yoğun Bakım Sorumlusu</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">14:45 - 15:05</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Ayşe Selen Kocabaş</strong></span><span style="font-size:11pt">-</span><span style="font-size:11pt"> Stratejik Danışman</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">15:05 - 15:25</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Dr. Yılmaz Arg&uuml;den</strong></span> <span style="font-size:11pt">- ARGE Danışmanlık Y&ouml;netim Kurulu Başkanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">15:25 - 15:45</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Murat Yeşildere </strong></span><span style="font-size:11pt">- Yetenek Avcısı, Egon Zehnder Kıdemli Ortak</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">15:45 - 16:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:00 - 16:20</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>16:20 - 17:35</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><strong>PANEL 2: NEDEN DEĞER TEMELLİ SAĞLIK<br />
-			                                Oturum Başkanı: Haluk &Ouml;zsarı - <span style="font-size:11pt">Sağlık Bilimleri Fak&uuml;ltesi &Ouml;ğretim &Uuml;yesi</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px; text-align:left;"><span style="font-size:15px">16:20 - 16:40</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Dr. Şuayip Birinci</strong></span> <span style="font-size:11pt">- T.C. Sağlık Bakanlığı, Sağlık Bakanı Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:24px; text-align:left;"><span style="font-size:15px">16:40 - 17:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>G&ouml;khan Tuna &Ouml;zt&uuml;rk</strong></span> <span style="font-size:11pt">- Genel Sağlık Sigortası Genel M&uuml;d&uuml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:24px; text-align:left;"><span style="font-size:15px">17:00- 17:20</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Yelda Ulu Colin</strong></span> <span style="font-size:11pt">- Orta Avrupa ve T&uuml;rkiye B&ouml;lgesi Genel M&uuml;d&uuml;r&uuml;, Abbott Core Diagnostics</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:24px; text-align:left;"><span style="font-size:15px">17:20 - 17:35</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ededed; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:43px; text-align:left;"><span style="font-size:15px"><strong>17:35-18:30</strong></span></td>
-                                            <td style="background-color:#ededed; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>Konferans:<br />
-			                            Sağlıkta Mavi Okyanus Stratejisi ile Yalın Hastanecilik Yaklaşımı</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:25px; text-align:center;"><span style="font-size:15px"><strong>&nbsp;</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px"><strong>21:30-22:30</strong></span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px"><strong>Sosyal Program / Stand-Up G&ouml;sterisi</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="text-align:left;">&nbsp;</td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="text-align:left;">&nbsp;</td>
-
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" style="background-color:#00509d ; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px; text-align:center;"><span style="font-size:19px"><span style="color:white"><strong>4 KASIM 2022, CUMA</strong></span></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px"><strong>SAAT</strong></span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:center;"><span style="font-size:15px"><strong>&nbsp;KONU/KONUŞMACI</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>09:00 -10:00</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 3: BUG&Uuml;NDEN YARINA &Ouml;ZEL SAĞLIK SİGORTALARI<br />
-			                                Oturum Başkanı : Can Kantar - <span style="font-size:11pt">Sigorta Medya Genel M&uuml;d&uuml;r&uuml;&nbsp;</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:00 - 09:15</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Okan &Ouml;zdemir</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Allianz Sağlık Sigortaları Genel M&uuml;d&uuml;r Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:15 - 09:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Kerem Erberk</strong></span><span style="font-size:11pt"> -</span><span style="font-size:11pt"> Anadolu Sigorta Genel M&uuml;d&uuml;r Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:30 - 09:45</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Atilla Oksay </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">T&uuml;rkiye Sigorta Birliği Genel Sekreter Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:45 - 10:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:00-10:15</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:60px; text-align:left;"><span style="font-size:15px"><strong>10:15-11:10</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;   "><span style="font-size:15px"><span style="font-size:11pt"><strong>SEKT&Ouml;R KONUŞUYOR :KAMU &amp; &Ouml;ZEL SAĞLIK HİZMET SUNUCULARI PERSPEKTİFİNDEN SAĞLIKTA GELECEĞİN VİZYONU</strong></span><br />
-			                            <span style="font-size:11pt"><strong>Oturum Başkanı : Levent Yiğit - </strong></span><span style="font-size:11pt">SASDER Y&ouml;netim Kurulu Başkanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:15 - 10:35</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><strong>Kemal Memişoğlu<span style="font-size:11pt"> - </span><span style="font-size:11pt">İstanbul İl Sağlık M&uuml;d&uuml;r&uuml;</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:35 - 10:55</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Reşat Bahat </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">OHSAD Başkanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:55 - 11:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>11:10-12:00</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 4: OBEZİTENİN FİNANSAL Y&Uuml;K&Uuml;<br />
-			                            Oturum Başkanı: Bülent Antmen - <span style="font-size:11pt">Acıbadem Adana Hastanesi, &Ccedil;ocuk Hastalıkları Uzmanı</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">11:10 - 11:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Simten Malhan - </strong></span><span style="font-size:11pt">Başkent &Uuml;niversitesi Sağlık Bilimleri Fak&uuml;ltesi Dekanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">11:30 - 11:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>&Ouml;mer Buğra Bahadır </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">
-                                                        Novo Nordisk Klinik Medikal ve Ruhsatlandırma Direkt&ouml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">11:50 - 12:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:23px; text-align:left;"><span style="font-size:15px">12:00-13:30</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">&Ouml;ğle Yemeği</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:35px; text-align:left;"><span style="font-size:15px"><strong>13:30-14:30</strong></span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px"><strong>Sunay Akın İle Söyleşi</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px; text-align:left;"><span style="font-size:15px"><strong>14:30-16:10</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 5: HASTANELERDE BUG&Uuml;N VE GELECEK<br />
-			                            Oturum Başkanı: Ali Haberal - <span style="font-size:11pt">Başkent &Uuml;nivesitesi Sağlık Kuruluşları Direkt&ouml;r&uuml;</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:30 - 14:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>G&ouml;khan Tuna &Ouml;zt&uuml;rk </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">Genel Sağlık Sigortası Genel M&uuml;d&uuml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">14:50 - 15:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Serhat &Uuml;nal</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Hacettepe &Uuml;niversitesi Tıp Fak&uuml;ltesi Rekt&ouml;r Yardımcısı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:10 - 15:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Ahmet Demircan </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">Gazi &Uuml;niversitesi Başhekimi</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:30 - 15:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Uğur Gen&ccedil;</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Memorial Sağlık Grubu CEO</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:50 - 16:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:10-16:30</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>16:30-17:50</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 6: İLA&Ccedil; END&Uuml;STRİSİNİ GELECEKTE NE BEKLİYOR?<br />
-			                            Oturum Başkanı: Simten Malhan - <span style="font-size:11pt">Başkent &Uuml;niversitesi Sağlık Bilimleri Fak&uuml;ltesi Dekanı</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">16:30 - 16:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Tuncay Alkan</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Genel Sağlık Sigortası Genel M&uuml;d&uuml;rl&uuml;ğ&uuml;, İla&ccedil; Daire Başkanı</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">16:50 - 17:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>G&ouml;zde G&uuml;ll&uuml;oğlu</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">MSD T&uuml;rkiye Genel M&uuml;d&uuml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">17:10 - 17:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Oğuz Akandil</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Nobel İla&ccedil; Genel M&uuml;d&uuml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">17:30 - 17:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:20px; text-align:center;"><span style="font-size:15px">&nbsp;</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px"><strong>20:30-23:30</strong></span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px"><strong>Gala Yemeği &amp; Orkestra Programı</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="height:20px; text-align:left;">&nbsp;</td>
-                                            <td style="text-align:left;">&nbsp;</td>
-
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" style="background-color:#00509d ; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:25px; text-align:center;"><span style="font-size:19px"><span style="color:white"><strong>5 KASIM 2022, CUMARTESİ</strong></span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px"><strong>SAAT&nbsp;</strong></span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:center;"><span style="font-size:15px"><strong>KONU/KONUŞMACI</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:61px;"><span style="font-size:15px"><strong>09:30-10:45</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 7: GELECEĞİN SAĞLIĞI SAĞLIĞIN GELECEĞİ<br />
-			                            Oturum Başkanı: Metin &Ccedil;akmak&ccedil;ı</strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:30-09:50</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Tolga Tuncer</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">G&uuml;ven Future Genel M&uuml;d&uuml;r&uuml;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">09:50-10:10</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Mehmet Ali Kaşifoğlu</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Hacettepe &Uuml;niversitesi Tıp Fak&uuml;ltesi Tıbbi Genetik Anabilim Dalı Başkanı&nbsp;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:10-10:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Cem Sungur</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Acıbadem &Uuml;niversitesi &Ouml;ğretim G&ouml;revlisi</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:30-10:45</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">10:45-11:00</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:60px;"><span style="font-size:15px"><strong>11:00-12:00</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 8 : YAŞLANAN N&Uuml;FUS VE ARTAN SAĞLIK HARCAMALARI<br />
-			                            Oturum Başkanı: Vildan Kandemir B&uuml;t&uuml;n - <span style="font-size:11pt">Okyanus Yaşlı Bakım Merkezleri Kurucusu ve Uluslararası Geriatri Danışmanı</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">11:00-11:15</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>B&uuml;lent Saka </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">İstanbul &Uuml;niversitesi İstanbul Tıp Fak&uuml;ltesi İ&ccedil; Hastalıkları&nbsp;</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">11:15-11:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="color:red"><span style="font-size:11pt"><strong>Murat İş&ccedil;i</strong></span> <span style="font-size:11pt"><span style="color:red">-</span></span><span style="font-size:11pt"> Nestle Health Science T&uuml;rkiye Medikal Departman Y&ouml;neticisi</span></span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">11:30-11:45</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>&Ouml;zden G&uuml;d&uuml;k</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">Y&uuml;ksek İhtisas &Uuml;niversitesi Dr.&Ouml;ğr. &Uuml;yesi</span></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px;"><span style="font-size:15px">11:45-12:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">12:00-13:30</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">&Ouml;ğle Yemeği</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">12:00-14:00</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">B2B</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>14:00-15:00</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>TEMA KONUŞMACISI 2<br />
-			                                Konuşmacı: Mustafa &Ccedil;etiner - <span style="font-size:11pt">Acıbadem Maslak Hastanesi, Hematoloji Uzmanı</span></strong></span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:00-15:15</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">&Ccedil;ay - Kahve Molası</span></td>
-
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:40px;"><span style="font-size:15px"><strong>15:15 - 16:30</strong></span></td>
-                                            <td style="background-color:#e7e6e6; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;  "><span style="font-size:15px"><strong>PANEL 9 : TIBBİ CİHAZ VE MALZEME SEKT&Ouml;R&Uuml;NDEKİ SORUNLAR VE &Ccedil;&Ouml;Z&Uuml;M &Ouml;NERİLERİ<br />
-			                                    Oturum Başkanı: Kemal Yaz - <span style="font-size:11pt">T&Uuml;MDEF Y&ouml;netim Kurulu Başkanı</span></strong></span>
+                                            <td style="background-color:#a9d08e; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">&Ouml;ĞLE YEMEĞİ</span></strong></span></p>
                                             </td>
-
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:15 - 15:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Fatih Topuz</strong></span><span style="font-size:11pt"> - </span><span style="font-size:11pt">TİTCK Tıbbi Cihaz Onaylanmış Kuruluş ve Klinik Araştırmalar Dairesi Başkanı</span></span></td>
-
+                                            <td style="background-color:#585858; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">14:50-15:10</span></span></strong></span></p>
+                                            </td>
+                                            <td style="background-color:#585858; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">KAHVE ARASI</span></span></strong></span></p>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:30 - 15:45</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Mustafa Yıldırım</strong></span><span style="font-size:11pt"> -&nbsp; </span><span style="font-size:11pt">GE Healthcare TCA Genel M&uuml;d&uuml;r&uuml;</span></span></td>
+                                            <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:83px">
+                                                <p>&nbsp;</p>
 
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">16:00-17:20</span></span></strong></span></p>
+                                            </td>
+                                            <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:51px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 9:</span></span></strong></span></p>
+
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">CUMHURİYETİN 100. YILINDA SAĞLIK TURİZMİ</span></span></strong></span></p>
+
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Dr. Reşat Bahat - </span></span></strong><span style="font-size:9.5pt"><span style="color:white">OHSAD Genel Başkanı</span></span></span></p>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">15:45 - 16:00</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Serhan Acar </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">Boston Scientific T&uuml;rkiye,Orta Asya ve Pakistan B&ouml;lge Direkt&ouml;r&uuml;</span></span></td>
-
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:10-15:30</span></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Aygen Yenig&uuml;n </span></strong><span style="font-size:9.0pt">&ndash; DEİK Dış Ekonomik İlişkiler Kurulu Afrika B&ouml;lg. Başkanı</span></span></p>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:00 - 16:15</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px"><span style="font-size:11pt"><strong>Uğur Mumay </strong></span><span style="font-size:11pt">- </span><span style="font-size:11pt">SEİS Y&ouml;netim Kurulu Başkan Yardımcısı</span></span></td>
-
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:30-15:50</span></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Alperen Ka&ccedil;ar </span></strong><span style="font-size:9.0pt">&ndash; TC. Ticaret Bakanlığı Genel M&uuml;d&uuml;r Yardımcısı</span></span></p>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:15 - 16:30</span></td>
-                                            <td style="border-bottom:1px solid black;  border-right:1px solid black; "><span style="font-size:15px">Soru - Cevap - Değerlendirme</span></td>
-
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">15:50-16:10</span></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">Tarik A&ccedil;ıkalın </span></strong><span style="font-size:9.0pt">- Remed Asistans Sağlık Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black;  height:20px; text-align:left;"><span style="font-size:15px">16:30-16:45</span></td>
-                                            <td style="background-color:#ffc000; border-bottom:1px solid black;  border-right:1px solid black;  text-align:left;"><span style="font-size:15px">Kapanış</span></td>
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><span style="font-size:9.0pt">16:10-16:20</span></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:20px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><span style="font-size:9.0pt">Tartışma</span></span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="background-color:#8496af; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:76px; vertical-align:top; width:83px">
+                                                <p>&nbsp;</p>
 
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt"><span style="color:white">16:20-16:50</span></span></strong></span></p>
+                                            </td>
+                                            <td style="background-color:#8496af; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:76px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">PANEL 10:</span></span></strong></span></p>
+
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">KRONIK BİR HASTALIĞA FARKLI BİR BAKIŞ</span></span></strong></span></p>
+
+                                                <p style="margin-left:2px; margin-right:386px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt"><span style="color:white">Moderat&ouml;r: Prof. Dr. Simten Malhan Konuşmacı: Prof. Dr. Tevfik Ecder</span></span></strong></span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">16:50-18:00</span></strong></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">B2B</span></strong></span></p>
+
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">Sigorta Şirketi - Sağlık Kurumları G&ouml;r&uuml;şmeleri</span></strong></span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:83px">
+                                                <p style="margin-left:7px; margin-right:6px; text-align:center"><span style="font-size:11pt"><strong><span style="font-size:9.0pt">18:00-19:00</span></strong></span></p>
+                                            </td>
+                                            <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:33px; vertical-align:top; width:643px">
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">GERİ &Ouml;DEME DOSYALARINDA FARMAKOEKONOMİK DEĞERLENDİRME KURSU</span></strong></span></p>
+
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:9.5pt">Prof. Dr. Simten Malhan</span></strong></span></p>
+                                            </td>
                                         </tr>
                                         </tbody>
-                                    </table> --}}
+                                    </table>
 
                                 </div>
                             </div>

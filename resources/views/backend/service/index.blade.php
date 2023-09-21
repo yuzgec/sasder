@@ -41,7 +41,7 @@
                             <span class="avatar me-2" style="background-image: url({{ (!$item->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('page')}})"></span>
                         </td>
                         <td>
-                            <div class="font-weight-medium">{{ $item->title }}</div>
+                            <div class="font-weight-medium"><a href="{{ route('service.edit', $item->id) }}" title="Düzenle">{{ $item->title }}</a></div>
                         </td>
                         <td class="text-center">
                             <label class="form-check form-check-single form-switch">
