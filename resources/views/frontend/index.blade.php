@@ -109,7 +109,7 @@
         <div class="modal-dialog" role="document" id="banner">
             <div class="modal-content">
                 <div class="modal-body">
-                    <a href="{{ route('kongredetay', '10-ulusal-kongre') }}">
+                    <a href="{{ route('kongredetay', '10-ulusal-kongre#program') }}">
                         <img src="/10kongre.jpg" class="img-fluid">
                     </a>
                 </div>
