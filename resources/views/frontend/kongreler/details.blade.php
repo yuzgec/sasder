@@ -134,7 +134,7 @@
                             </div>
                             <div class="tab-pane" id="program">
                                 <div>
-                                    <table cellspacing="0" style="border-collapse:collapse; width:780px">
+                                    <table cellspacing="0" style="border-collapse:collapse; width:100%">
                                         <tbody>
                                         <tr>
                                             <td colspan="2" style="background-color:#222b35; border-bottom:none; border-left:1px solid black; border-right:none; border-top:1px solid black; height:44px; text-align:center; vertical-align:middle; white-space:nowrap; width:779px"><span style="font-size:24px"><span style="color:white"><strong>2 Kasım 2023 Perşembe</strong></span></span></td>
