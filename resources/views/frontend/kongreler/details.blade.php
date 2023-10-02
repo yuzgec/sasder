@@ -180,7 +180,7 @@
                                                     <p style="margin-left:10px; margin-right:7px; text-align:center"><span style="font-size:11pt"><span style="font-size:8.5pt">12:40-13:00</span></span></p>
                                                 </td>
                                                 <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; vertical-align:top; width:641px">
-                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan </span></strong><span style="font-size:8.5pt">- Kongre Bilimsel Kurul Başkanı / G&uuml;ven Hastanesi Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan </span></strong><span style="font-size:8.5pt">- Bilimsel Kongre Başkanı / Güven Sağlıklı Yaşam Kampüsü Genel Müdürü</span></span></p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -523,7 +523,7 @@
 
                                                     <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Jens Pii Olesen </span></strong><span style="font-size:8.5pt">- Novo Nordisk T&uuml;rkiye Genel M&uuml;d&uuml;r ve Başkan Yardımcısı</span></span></p>
 
-                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan - </span></strong><span style="font-size:8.5pt">Kongre Bilimsel Kurul Başkanı / G&uuml;ven Hastanesi Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                    <p style="margin-left:3px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan - </span></strong><span style="font-size:8.5pt">Bilimsel Kongre Başkanı / Güven Sağlıklı Yaşam Kampüsü Genel Müdürü</span></span></p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -813,7 +813,7 @@
                                             <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:27px; vertical-align:top; width:641px">
                                                 <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">GERİ &Ouml;DEME DOSYALARINDA FARMAKOEKONOMİK DEĞERLENDİRMEDE İPU&Ccedil;LARI</span></strong></span></p>
 
-                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan - </span></strong><span style="font-size:8.5pt">Kongre Bilimsel Kurul Başkanı / G&uuml;ven Hastanesi Genel M&uuml;d&uuml;r&uuml;</span></span></p>
+                                                <p style="margin-left:2px"><span style="font-size:11pt"><strong><span style="font-size:8.5pt">Prof. Dr. Simten Malhan - </span></strong><span style="font-size:8.5pt">Bilimsel Kongre Başkanı / Güven Sağlıklı Yaşam Kampüsü Genel Müdürü</span></span></p>
                                             </td>
                                         </tr>
                                         </tbody>
