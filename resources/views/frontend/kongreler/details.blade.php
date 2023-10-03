@@ -426,7 +426,7 @@
                                             <td style="background-color:#595959; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:middle; white-space:normal; width:686px"><span style="font-size:13px"><span style="color:white"><strong>KAHVE ARASI</strong></span></span></td>
                                         </tr>
                                         <tr>
-                                            <td style="background-color:#8497b0; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; text-align:center; vertical-align:middle; white-space:nowrap"><span style="font-size:13px"><span style="color:white"><strong>16:00-17:20</strong></span></span></td>
+                                            <td style="background-color:#8497b0; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:51px; text-align:center; vertical-align:middle; white-space:nowrap"><span style="font-size:13px"><span style="color:white"><strong>15:10-17:20</strong></span></span></td>
                                             <td style="background-color:#8497b0; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:middle; white-space:normal; width:686px"><span style="font-size:13px"><span style="color:white"><strong>PANEL 9:<br />
 			CUMHURİYETİN 100. YILINDA SAĞLIK TURİZMİ<br />
 			Moderat&ouml;r: Dr. Reşat Bahat - <span style="font-size:10pt"><span style="color:white">OHSAD Genel Başkanı</span></span></strong></span></span></td>
