@@ -15,7 +15,7 @@
                         </h4>
                     </div>
                     <div>
-                        <a class="btn btn-tabler btn-sm p-2" href="{{  url()->previous() }}" title="Geri">
+                        <a class="btn btn-tabler btn-sm p-2" href="{{ route('kongredetay', $Edit->slug) }}" title="Geri">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" /><line x1="10" y1="14" x2="20" y2="4" /><polyline points="15 4 20 4 20 9" /></svg>
                             Önizle
                         </a>
@@ -65,6 +65,7 @@
                                 <x-form-textarea label="Genel" name="tab1"></x-form-textarea>
                                 <x-form-textarea label="Kayıt" name="tab2"></x-form-textarea>
                                 <x-form-textarea label="Banka Bilgileri" name="tab3"></x-form-textarea>
+                                <x-form-textarea label="Program" name="tab4"></x-form-textarea>
                             </div>
 
                         </div>
@@ -216,6 +217,22 @@
             ],
         });
         CKEDITOR.replace( 'tab3', {
+            filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
+            filebrowserUploadMethod: 'form',
+            extraPlugins: 'youtube,justify',
+            height : 300,
+            toolbar: [
+                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
+                { name: 'colors', items: [ 'TextColor' ]},
+                { name: 'colors', items: [ 'TextColor' ]},
+                { name: 'styles', items: [ 'Format', 'FontSize']},
+                { name: 'links', items : [ 'Link', 'Unlink'] },
+                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
+                { name: 'document', items : [ 'Source','Maximize' ]},
+            ],
+        });
+
+        CKEDITOR.replace( 'tab4', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
             extraPlugins: 'youtube,justify',

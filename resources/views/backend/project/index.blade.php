@@ -41,7 +41,9 @@
                             <span class="avatar me-2" style="background-image: url({{$item->getFirstMediaUrl()}})"></span>
                         </td>
                         <td>
-                            <div class="font-weight-medium">{{ $item->title }}</div>
+                            <div class="font-weight-medium">
+                                <a href="{{ route('project.edit', $item->id) }}">{{ $item->title }}</a>
+                            </div>
                         </td>
                         <td class="text-center">
                             <label class="form-check form-check-single form-switch">

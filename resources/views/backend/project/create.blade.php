@@ -48,6 +48,8 @@
                             <x-form-textarea label="Genel" name="tab1"></x-form-textarea>
                             <x-form-textarea label="Kayıt" name="tab2"></x-form-textarea>
                             <x-form-textarea label="Banka Bilgileri" name="tab3"></x-form-textarea>
+                            <x-form-textarea label="Program" name="tab4"></x-form-textarea>
+
                         </div>
 
                     </div>
@@ -147,6 +149,23 @@
             ],
         });
         CKEDITOR.replace( 'tab3', {
+            filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
+            filebrowserUploadMethod: 'form',
+            extraPlugins: 'youtube',
+            height : 300,
+            toolbar: [
+                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
+                { name: 'paragraph',items: [ 'BulletedList']},
+                { name: 'colors', items: [ 'TextColor' ]},
+                { name: 'styles', items: [ 'Format', 'FontSize']},
+                { name: 'links', items : [ 'Link', 'Unlink'] },
+                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
+                { name: 'document', items : [ 'Source','Maximize' ]},
+                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
+            ],
+        });
+
+        CKEDITOR.replace( 'tab4', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
             extraPlugins: 'youtube',

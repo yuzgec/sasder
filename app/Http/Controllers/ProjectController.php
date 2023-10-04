@@ -36,6 +36,7 @@ class ProjectController extends Controller
         $New->tab1 = $request->tab1;
         $New->tab2 = $request->tab2;
         $New->tab3 = $request->tab3;
+        $New->tab4 = $request->tab4;
 
         $New->seo_desc = $request->seo_desc;
         $New->seo_key = $request->seo_key;
@@ -80,6 +81,7 @@ class ProjectController extends Controller
         $Update->tab1 = $request->tab1;
         $Update->tab2 = $request->tab2;
         $Update->tab3 = $request->tab3;
+        $Update->tab4 = $request->tab4;
 
         $Update->seo_title = $request->seo_title;
         $Update->seo_desc = $request->seo_desc;
