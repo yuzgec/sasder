@@ -105,7 +105,7 @@
         </div>
     </section>
 
-    <div class="modal show" tabindex="-1" role="dialog" id="kongredetay">
+ {{--   <div class="modal show" tabindex="-1" role="dialog" id="kongredetay">
         <div class="modal-dialog" role="document" id="banner">
             <div class="modal-content">
                 <div class="modal-body">
@@ -116,10 +116,11 @@
             </div>
         </div>
     </div>
-
+--}}
 
 @endsection
 
+{{--
 @section('customJS')
     <script type="text/javascript">
         $(window).on('load', function() {
@@ -127,4 +128,5 @@
         });
     </script>
 @endsection
+--}}
 
