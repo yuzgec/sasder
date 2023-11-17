@@ -109,7 +109,7 @@
                     </div>
                 </div>--}}
                 @if($Detay->id == 10)
-                    <div class="col-md-12">
+                <div class="col-md-12">
                     <div class="tabs tabs-bottom tabs-center tabs-simple">
                         <ul class="nav nav-tabs">
                             <li class="nav-item active">
@@ -139,7 +139,7 @@
                                  </div>
                             </div>
                             <div class="tab-pane" id="program">
-                                <div>
+                                <div class="">
                                     {!! $Detay->tab4 !!}
                                 </div>
                             </div>
@@ -170,15 +170,14 @@
                                 </div>
                             </div>
                             <div class="tab-pane" id="4kasim">
-                                    <div class="masonry-loader masonry-loader-showing">
-                                        <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
-                                            <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-                                                @foreach($Detay->getMedia('4kasim') as $item)
-                                                    <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
-                                                        <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
-                                                    </a>
-                                                @endforeach
-                                            </div>
+                                <div class="masonry-loader masonry-loader-showing">
+                                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
+                                        <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                            @foreach($Detay->getMedia('4kasim') as $item)
+                                                <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
+                                                    <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                                </a>
+                                            @endforeach
                                         </div>
                                     </div>
                                 </div>

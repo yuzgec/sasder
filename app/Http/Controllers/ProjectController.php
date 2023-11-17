@@ -100,7 +100,7 @@ class ProjectController extends Controller
 
         if($request->hasfile('gallery')) {
             foreach ($request->gallery as $item){
-                $Update->addMedia($item)->toMediaCollection('gallery');
+                $Update->addMedia($item)->toMediaCollection($request->seo_key);
             }
         }
 
