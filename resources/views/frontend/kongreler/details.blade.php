@@ -144,17 +144,20 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="ikikasim">
-                            <div class="masonry-loader masonry-loader-showing">
-                                <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
-                                    <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-                                        @foreach($Detay->getMedia('2kasim') as $item)
-                                            <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
-                                                <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
-                                            </a>
-                                        @endforeach
+                            <div>
+                                <div class="masonry-loader masonry-loader-showing">
+                                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
+                                        <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                            @foreach($Detay->getMedia('2kasim') as $item)
+                                                <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
+                                                    <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                                </a>
+                                            @endforeach
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="tab-pane" id="uckasim">
                             <div class="masonry-loader masonry-loader-showing">
