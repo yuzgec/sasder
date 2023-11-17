@@ -22,7 +22,27 @@
     <div class="container container-xl-custom py-4  mt-2 resimler">
         @include('frontend.layout.uyeol')
         <div class="row mt-3">
+
+
             <div class="col-md-12">
+                <div class="masonry-loader masonry-loader-showing">
+                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
+
+                        <div class="lightbox"
+                             data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                            @foreach($Detay->getMedia('2kasim') as $item)
+                                <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
+                                    <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                </a>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+
+
                 {!! $Detay->desc !!}
             </div>
 
@@ -121,7 +141,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#ikikasim" data-bs-toggle="tab">2 Kasım</a>
                         </li>
-                        <li class="nav-item">
+                     <li class="nav-item">
                             <a class="nav-link" href="#uckasim" data-bs-toggle="tab">3 Kasım</a>
                         </li>
                         <li class="nav-item">
@@ -144,10 +164,11 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="ikikasim">
-                            <div>
+
+                            <div class="col-md-12">
                                 <div class="masonry-loader masonry-loader-showing">
                                     <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
-                                        <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                        <div class="lightbox"  data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
                                             @foreach($Detay->getMedia('2kasim') as $item)
                                                 <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
                                                     <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
@@ -157,6 +178,7 @@
                                     </div>
                                 </div>
                             </div>
+
 
                         </div>
                         <div class="tab-pane" id="uckasim">
@@ -203,21 +225,6 @@
             </div>
             @endif
 
-            <div class="col-md-12">
-                <div class="masonry-loader masonry-loader-showing">
-                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
-
-                        <div class="lightbox"
-                             data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-                            @foreach($Detay->getMedia('gallery') as $item)
-                            <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
-                               <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
-                            </a>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
 
          </div>
     </div>
