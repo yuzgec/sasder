@@ -62,14 +62,12 @@
                         <div class="tab-pane" id="ikikasim">
                             <div class="">
                                 <h2 class="font-weight-bold">2 Kasım 2023 Fotoğrafları</h2>
-                                <div class="masonry-loader masonry-loader-showing">
-                                    <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-                                        @foreach($Detay->getMedia('2kasim') as $item)
-                                            <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
-                                                <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
-                                            </a>
-                                        @endforeach
-                                    </div>
+                                <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                    @foreach($Detay->getMedia('2kasim') as $item)
+                                        <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
+                                            <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                        </a>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
