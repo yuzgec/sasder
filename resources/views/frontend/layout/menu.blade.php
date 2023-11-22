@@ -47,7 +47,11 @@
             </ul>
         </li>
 
-
+        <li class="dropdown">
+            <a class="dropdown-item dropdown-toggle" href="{{ route('sertifika') }}">
+                E-Sertifika
+            </a>
+        </li>
         <li class="dropdown">
             <a class="dropdown-item dropdown-toggle" href="{{ route('iletisim') }}">
                 İletişim

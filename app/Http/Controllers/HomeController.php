@@ -161,6 +161,11 @@ class HomeController extends Controller
         return view('frontend.sayfa.iletisim', compact('Cookies'));
     }
 
+    public function sertifika(){
+        @$Cookies = Page::where('id',6)->first();
+        return view('frontend.sayfa.sertifika', compact('Cookies'));
+    }
+
     public function mailsubcribes(Request $request){
         MailSubcribes::create(['email_address' => $request->email, 'ip_address' => $request->ip()]);
         toast(SWEETALERT_MESSAGE_DELETE,'success');

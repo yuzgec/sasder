@@ -12,6 +12,7 @@ use Spatie\Sitemap\SitemapGenerator;
     Route::post('/uyeol', 'HomeController@uyeol')->name('uyeol');
     Route::get('/video', 'HomeController@video')->name('video');
     Route::get('/iletisim', 'HomeController@iletisim')->name('iletisim');
+    Route::get('/e-sertifika', 'HomeController@sertifika')->name('sertifika');
     Route::get('/arama', 'HomeController@search')->name('search');
     Route::post('/bulten', 'HomeController@mailsubcribes')->name('mailsubcribes');
 
