@@ -65,7 +65,7 @@
                                 <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
                                     @foreach($Detay->getMedia('2kasim') as $item)
                                         <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
-                                            <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                            <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid m-1" style="width: 250px">
                                         </a>
                                     @endforeach
                                 </div>
