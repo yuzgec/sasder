@@ -23,9 +23,6 @@
         @include('frontend.layout.uyeol')
         <div class="row mt-3">
 
-            <div class="col-md-12">
-                {!! $Detay->desc !!}
-            </div>
 
             @if($Detay->id == 10)
             <div class="col-md-12">
@@ -120,7 +117,6 @@
                             </div>
                         </div>
 
-
                         <div class="tab-pane" id="gala">
                             <div class="">
                                 <h2 class="font-weight-bold">GALA Fotoğrafları</h2>
@@ -141,13 +137,15 @@
                             </div>
                         </div>
 
-
-
-
                     </div>
                 </div>
             </div>
             @endif
+
+            <div class="col-md-12">
+                {!! $Detay->desc !!}
+            </div>
+
         </div>
     </div>
 {{--    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
