@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ilkgun" data-bs-toggle="tab">2 Kasım 2023</a>
+                        </li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="genel">
@@ -49,6 +52,25 @@
                                 {!! $Detay->tab4 !!}
                             </div>
                         </div>
+
+                        <div class="tab-pane" id="ilkgun">
+                            <div class="">
+                                <div class="masonry-loader masonry-loader-showing">
+                                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}" >
+
+                                        <div class="lightbox"
+                                             data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                            @foreach($Detay->getMedia('2kasim') as $item)
+                                                <a class="masonry-item p-2" href="{{ $item->getUrl() }}">
+                                                    <img src="{{ $item->getUrl() }}" alt="{{ $Detay->title }}" class="img-fluid">
+                                                </a>
+                                            @endforeach
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
