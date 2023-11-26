@@ -32,9 +32,6 @@
                         Seo Bilgileri
                     </h4>
                 </div>
-                <x-form-inputtext label="Seo Başlık" name="seo_title"/>
-                <x-form-inputtext label="Seo Açıklama" name="seo_desc"/>
-                <x-form-inputtext label="Seo Anahtar Kelime " name="seo_key"/>
             </div>
 
         </div>

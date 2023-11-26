@@ -35,16 +35,10 @@
                             <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#ikikasim" data-bs-toggle="tab">2 Kasım 2023</a>
+                            <a class="nav-link" href="#foto" data-bs-toggle="tab">Fotoğraflar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#uckasim" data-bs-toggle="tab">3 Kasım 2023</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#dortkasim" data-bs-toggle="tab">4 Kasım 2023</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gala" data-bs-toggle="tab">GALA</a>
+                            <a class="nav-link" href="#sunum" data-bs-toggle="tab">Sunumlar</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -59,7 +53,7 @@
                             </div>
                         </div>
 
-                        <div class="tab-pane" id="ikikasim">
+                        <div class="tab-pane" id="foto">
                             <div class="">
                                 <h2 class="font-weight-bold">2 Kasım 2023 Fotoğrafları</h2>
                                 <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
@@ -70,9 +64,6 @@
                                     @endforeach
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="tab-pane" id="uckasim">
                             <div class="">
                                 <h2 class="font-weight-bold">3 Kasım 2023 Fotoğrafları</h2>
 
@@ -84,9 +75,6 @@
                                     @endforeach
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="tab-pane" id="dortkasim">
                             <div class="">
                                 <h2 class="font-weight-bold">4 Kasım 2023 Fotoğrafları</h2>
                                 <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
@@ -97,9 +85,6 @@
                                     @endforeach
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="tab-pane" id="gala">
                             <div class="">
                                 <h2 class="font-weight-bold">GALA Fotoğrafları</h2>
                                 <div class="lightbox"
@@ -111,6 +96,33 @@
                                     @endforeach
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="tab-pane" id="sunum">
+                            {{-- <div class="">
+                                <h2 class="font-weight-bold">2 Kasım 2023 sunum Dosyaları</h2>
+
+                                <table class="table table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Saat</th>
+                                        <th scope="col">İsim Soyisim</th>
+                                        <th scope="col">Görevi</th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach ($Konusmacilar as $item)
+                                            <tr>
+                                                <td>12:00</td>
+                                                <th>{{ $item->speaker_name}} </th>
+                                                <td>{{ $item->speaker_title}}</td>
+                                                <td>indir</td>
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div> --}}
                         </div>
 
                     </div>
