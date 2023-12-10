@@ -51,13 +51,13 @@ class SpeakerController extends Controller
     public function show($id)
     {
         $Show = Speaker::findOrFail($id);
-        return view('frontend.Speaker.index', compact('Show'));
+        return view('frontend.speaker.index', compact('Show'));
     }
 
     public function edit($id)
     {
         $Edit = Speaker::findOrFail($id);
-        return view('backend.Speaker.edit', compact('Edit'));
+        return view('backend.speaker.edit', compact('Edit'));
     }
 
     public function update(SpeakerRequest $request, $id)
