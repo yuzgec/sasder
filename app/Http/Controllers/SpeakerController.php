@@ -14,7 +14,7 @@ class SpeakerController extends Controller
 {
     public function index()
     {
-        $All = Speaker::with('getProject')->orderBy('rank')->get();
+        $All = Speaker::with('getProject')->orderBy('rank')->where('project_id', 10)->get();
         return view('backend.speaker.index', compact('All'));
     }
 
@@ -34,20 +34,10 @@ class SpeakerController extends Controller
         $New->speaker_subject = $request->speaker_subject;
         $New->speaker_education = $request->speaker_education;
         $New->speaker_day = $request->speaker_day;
-        $New->project_id = $request->project_id;
+        $New->project_id = 10;
 
-        $New->seo_desc = $request->seo_desc;
-        $New->seo_key = $request->seo_key;
-        $New->seo_title = $request->seo_title;
-
-        if($request->hasfile('image')){
-            $New->addMedia($request->image)->withResponsiveImages()->toMediaCollection('Speaker');
-        }
-
-        if($request->hasfile('gallery')) {
-            foreach ($request->gallery as $item){
-                $New->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
-            }
+        if ($request->hasFile('image')) {
+            $New->addMedia($request->image)->toMediaCollection('page');
         }
 
         $New->save();
@@ -67,22 +57,19 @@ class SpeakerController extends Controller
     public function edit($id)
     {
         $Edit = Speaker::findOrFail($id);
-        $Kategori = ['1. Gün', '2. Gün', '3. Gün', '4.Gün', '5. Gün', 'Konuşmacılar'];
-        return view('backend.Speaker.edit', compact('Edit', 'Kategori'));
+        return view('backend.Speaker.edit', compact('Edit'));
     }
 
     public function update(SpeakerRequest $request, $id)
     {
         $Update = Speaker::findOrFail($id);
-        $Update->title = $request->title;
-        $Update->slug = seo($request->title);
-        $Update->category = $request->category;
-        $Update->short = $request->short;
-        $Update->desc = $request->desc;
 
-        $Update->seo_title = $request->seo_title;
-        $Update->seo_desc = $request->seo_desc;
-        $Update->seo_key = $request->seo_key;
+        $Update->speaker_name = $request->speaker_name;
+        $Update->speaker_title = 'test';
+        $Update->speaker_subject = $request->speaker_subject;
+        $Update->speaker_education = 'test';
+        $Update->speaker_day = 'test';
+        $Update->project_id = $request->project_id;
 
         if($request->removeImage == "1"){
             $Update->media()->where('collection_name', 'page')->delete();
@@ -90,13 +77,7 @@ class SpeakerController extends Controller
 
         if ($request->hasFile('image')) {
             $Update->media()->where('collection_name', 'page')->delete();
-            $Update->addMedia($request->image)->withResponsiveImages()->toMediaCollection('page');
-        }
-
-        if($request->hasfile('gallery')) {
-            foreach ($request->gallery as $item){
-                $Update->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
-            }
+            $Update->addMedia($request->image)->toMediaCollection('page');
         }
 
         $Update->save();

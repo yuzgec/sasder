@@ -43,7 +43,7 @@ class ProjectController extends Controller
         $New->seo_title = $request->seo_title;
 
         if($request->image){
-            $New->addMedia($request->image)->toMediaCollection();
+            $New->addMedia($request->image)->toMediaCollection('page');
         }
 
         $New->save();

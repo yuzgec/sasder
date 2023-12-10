@@ -133,6 +133,8 @@ class HomeController extends Controller
 
         $Konusmacilar = Speaker::where('project_id',$Detay->id)->get();
         $Days = Speaker::where('project_id',$Detay->id)->groupBy('speaker_day')->get();
+
+        //dd($Konusmacilar);
         return view('frontend.kongreler.details', compact('Detay', 'Konusmacilar', 'Days', 'Cookies'));
     }
 

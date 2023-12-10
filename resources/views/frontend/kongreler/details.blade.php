@@ -99,30 +99,31 @@
                         </div>
 
                         <div class="tab-pane" id="sunum">
-                            {{-- <div class="">
-                                <h2 class="font-weight-bold">2 Kasım 2023 sunum Dosyaları</h2>
+                            <div class="">
+                                <h2 class="font-weight-bold">2023 Sunum Dosyaları</h2>
 
                                 <table class="table table-hover">
                                     <thead>
                                       <tr>
-                                        <th scope="col">Saat</th>
                                         <th scope="col">İsim Soyisim</th>
-                                        <th scope="col">Görevi</th>
+                                        <th scope="col">Sunum Konusu</th>
                                         <th scope="col"></th>
                                       </tr>
                                     </thead>
                                     <tbody>
                                         @foreach ($Konusmacilar as $item)
                                             <tr>
-                                                <td>12:00</td>
                                                 <th>{{ $item->speaker_name}} </th>
-                                                <td>{{ $item->speaker_title}}</td>
-                                                <td>indir</td>
+                                                <td>{{ $item->speaker_subject}}</td>
+                                                <td><a href="{{ $item->getFirstMediaUrl('page') }}" download target="_blank">
+                                                        <i class="fa-regular fa-file-pdf"></i> PDF İndir
+                                                    </a>
+                                                </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
-                            </div> --}}
+                            </div> 
                         </div>
 
                     </div>
