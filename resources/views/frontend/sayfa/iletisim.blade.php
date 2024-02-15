@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-@section('title', 'İletişim | '.config('app.name'))
+@section('title', 'Sasder İletişim | '.config('app.name'))
 @section('customCSS')
     <style>
         .animation-ctn{
@@ -207,7 +207,7 @@
                 <div class="card card-border card-border-bottom bg-color-light">
                     <div class="card-body">
                         <h4 class="card-title mb-1 text-4 font-weight-bold">Adres</h4>
-                        <p class="card-text">Merkez Efendi Mah. Mevlana Cad. Aktaş Blok No:108 D:58 Zeytinburnu/İstanbul</p>
+                        <p class="card-text">Şehremi̇ni̇ Mah. Deni̇z Abdal Çeşmesi̇ Sok. Dönmez İş Merkezi̇ No:10 K:3  Fati̇h/İstanbul</p>
                     </div>
                 </div>
             </div>
