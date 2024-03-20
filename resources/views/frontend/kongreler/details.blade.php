@@ -121,6 +121,40 @@
             </div>
             @endif
 
+            @if($Detay->id == 11)
+            <div class="col-md-12">
+                <div class="tabs tabs-bottom tabs-center tabs-simple">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#genel" data-bs-toggle="tab">Genel Bilgiler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
+                        </li>
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="#foto" data-bs-toggle="tab">Fotoğraflar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sunum" data-bs-toggle="tab">Sunumlar</a>
+                        </li> --}}
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="genel">
+                            <div class="">
+                                {!! $Detay->tab1 !!}
+                             </div>
+                        </div>
+                        <div class="tab-pane" id="program">
+                            <div class="">
+                                {!! $Detay->tab4 !!}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            @endif
+
             <div class="col-md-12">
                 {!! $Detay->desc !!}
             </div>
