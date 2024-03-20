@@ -128,6 +128,14 @@
                         <li class="nav-item active">
                             <a class="nav-link active" href="#genel" data-bs-toggle="tab">Genel Bilgiler</a>
                         </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#kayit" data-bs-toggle="tab">Kayıt</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#banka" data-bs-toggle="tab">Banka Bilgileri</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
                         </li>
@@ -144,9 +152,22 @@
                                 {!! $Detay->tab1 !!}
                              </div>
                         </div>
+
+                        <div class="tab-pane active" id="kayit">
+                            <div class="">
+                                {!! $Detay->tab2 !!}
+                             </div>
+                        </div>
+
+                        <div class="tab-pane active" id="banka">
+                            <div class="">
+                                {!! $Detay->tab3 !!}
+                             </div>
+                        </div>
+                        
                         <div class="tab-pane" id="program">
                             <div class="">
-                                {!! $Detay->tab4 !!}
+                                Güncelleniyor
                             </div>
                         </div>
 
