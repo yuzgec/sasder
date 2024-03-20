@@ -129,12 +129,12 @@
                             <a class="nav-link active" href="#genel" data-bs-toggle="tab">Genel Bilgiler</a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="#kayit" data-bs-toggle="tab">Kayıt</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kayit" data-bs-toggle="tab">Kayıt</a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="#banka" data-bs-toggle="tab">Banka Bilgileri</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banka" data-bs-toggle="tab">Banka Bilgileri</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
