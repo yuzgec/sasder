@@ -153,18 +153,18 @@
                              </div>
                         </div>
 
-                        <div class="tab-pane active" id="kayit">
+                        <div class="tab-pane" id="kayit">
                             <div class="">
                                 {!! $Detay->tab2 !!}
                              </div>
                         </div>
 
-                        <div class="tab-pane active" id="banka">
+                        <div class="tab-pane" id="banka">
                             <div class="">
                                 {!! $Detay->tab3 !!}
                              </div>
                         </div>
-                        
+
                         <div class="tab-pane" id="program">
                             <div class="">
                                 Güncelleniyor
