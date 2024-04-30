@@ -105,26 +105,28 @@
         </div>
     </section>
 
-   {{-- <div class="modal show " tabindex="-1" role="dialog" id="kongredetay">
+   <div class="modal show " tabindex="-1" role="dialog" id="kongredetay">
         <div class="modal-dialog modal-xl" role="document" id="banner">
             <div class="modal-content modal-xl">
                 <div class="modal-body">
-                    <img src="/yeniyil.jpg" class="img-fluid">
+                    <a href="Sasder.pdf" target="_blank">
+                        <img src="/etkinlik.jpg" class="img-fluid">
+                    </a>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div> 
 
 
 @endsection
 
 
-{{-- @section('customJS')
+ @section('customJS')
     <script type="text/javascript">
         $(window).on('load', function() {
             $('#kongredetay').modal('show');
         });
     </script>
 @endsection
- --}}
+
 
