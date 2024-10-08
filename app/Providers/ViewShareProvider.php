@@ -23,7 +23,6 @@ class ViewShareProvider extends ServiceProvider
     public function boot()
     {
         //dd(time());
-        if (! app()->runningInConsole()) {
             Paginator::useBootstrap();
             config()->set('settings', Setting::pluck('value','item')->all());
             $Pages = Cache::remember('pages',now()->addYear(1), function () {return Page::with('getCategory')->where(['status' => 1, 'category' => 1])->orderBy('rank','desc')->get();});
@@ -37,8 +36,6 @@ class ViewShareProvider extends ServiceProvider
                 'Project' => $Project,
                 'Event_Categories' => $Event_Categories
             ]);
-
-        }
 
     }
 }

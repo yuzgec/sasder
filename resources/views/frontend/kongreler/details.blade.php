@@ -167,7 +167,7 @@
 
                         <div class="tab-pane" id="program">
                             <div class="">
-                                Güncelleniyor
+                                {!! $Detay->tab4 !!}
                             </div>
                         </div>
 
