@@ -159,7 +159,7 @@
 @endsection
 
 @section('customJS')
-    <script src="//cdn.ckeditor.com/4.17.1/full/ckeditor.js"></script>
+    <script src="/backend/ckeditor/ckeditor.js"></script>
     <script type="text/javascript">
 
         $(document).ready(function() {
@@ -170,82 +170,37 @@
             this.value ^= 1;
         });
 
-        CKEDITOR.plugins.addExternal('youtube', '/backend/libs/ck/youtube/plugin.js');
         CKEDITOR.replace( 'aciklama', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 500,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList','JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']},
-                { name: 'colors', items: [ 'TextColor']},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
+
         CKEDITOR.replace( 'tab1', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube,justify',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList','JustifyLeft', 'JustifyCenter', 'JustifyRight']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
         CKEDITOR.replace( 'tab2', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube,justify',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList','JustifyLeft', 'JustifyCenter', 'JustifyRight']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
         CKEDITOR.replace( 'tab3', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube,justify',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
 
         CKEDITOR.replace( 'tab4', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube,justify',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
     </script>
 @endsection

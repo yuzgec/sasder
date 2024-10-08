@@ -88,8 +88,8 @@
 
 
 @section('customJS')
-    <script src="//cdn.ckeditor.com/4.17.1/full/ckeditor.js"></script>
-    <script type="text/javascript">
+<script src="/backend/ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
 
         $(document).ready(function() {
             $("img").addClass("img-fluid");
@@ -99,87 +99,38 @@
             this.value ^= 1;
         });
 
-        CKEDITOR.plugins.addExternal('youtube', '/backend/libs/ck/youtube/plugin.js');
+        
         CKEDITOR.replace( 'aciklama', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 500,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
+
         CKEDITOR.replace( 'tab1', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
         CKEDITOR.replace( 'tab2', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
         CKEDITOR.replace( 'tab3', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
 
         CKEDITOR.replace( 'tab4', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
-            extraPlugins: 'youtube',
-            height : 300,
-            toolbar: [
-                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
-                { name: 'paragraph',items: [ 'BulletedList']},
-                { name: 'colors', items: [ 'TextColor' ]},
-                { name: 'styles', items: [ 'Format', 'FontSize']},
-                { name: 'links', items : [ 'Link', 'Unlink'] },
-                { name: 'insert', items : [ 'Image', 'Table', 'Youtube']},
-                { name: 'document', items : [ 'Source','Maximize' ]},
-                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
-            ],
+            allowedContent: true,
+            height : 500
         });
     </script>
 @endsection
