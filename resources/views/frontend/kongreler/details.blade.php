@@ -139,6 +139,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#program" data-bs-toggle="tab">Bilimsel Program</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sponsor" data-bs-toggle="tab">Sponsorlar</a>
+                        </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="#foto" data-bs-toggle="tab">Fotoğraflar</a>
                         </li>
@@ -168,6 +172,12 @@
                         <div class="tab-pane" id="program">
                             <div class="">
                                 {!! $Detay->tab4 !!}
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="sponsor">
+                            <div class="text-center">
+                                <img src="/11sponsor.jpg" class="img-fluid" alt="Sponsorlar">
                             </div>
                         </div>
 

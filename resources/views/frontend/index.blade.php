@@ -105,22 +105,22 @@
         </div>
     </section>
 
-   {{-- <div class="modal show " tabindex="-1" role="dialog" id="kongredetay">
-        <div class="modal-dialog modal-xl" role="document" id="banner">
-            <div class="modal-content modal-xl">
+    <div class="modal show " tabindex="-1" role="dialog" id="kongredetay">
+        <div class="modal-dialog" role="document" id="banner">
+            <div class="modal-content">
                 <div class="modal-body">
-                    <a href="Sasder.pdf" target="_blank">
-                        <img src="/etkinlik.jpg" class="img-fluid">
+                    <a href="https://sasder.org/kongre/11-ulusal-kongre#sponsor" target="_blank">
+                        <img src="/11sponsor.jpg" class="img-fluid" style="width: 500px">
                     </a>
                 </div>
             </div>
         </div>
-    </div>  --}}
+    </div>
 
 
 @endsection
 
-{{-- 
+
  @section('customJS')
     <script type="text/javascript">
         $(window).on('load', function() {
@@ -128,5 +128,5 @@
         });
     </script>
 @endsection
- --}}
+
 

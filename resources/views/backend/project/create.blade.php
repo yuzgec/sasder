@@ -98,9 +98,6 @@
         $('input[type="checkbox"]').on('change', function(){
             this.value ^= 1;
         });
-
-
-        
         
         CKEDITOR.replace( 'aciklama', {
             filebrowserUploadUrl: "{{ route('project.postUpload', ['_token' => csrf_token()]) }}",
