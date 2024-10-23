@@ -110,7 +110,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <a href="https://sasder.org/kongre/11-ulusal-kongre#sponsor" target="_blank">
-                        <img src="/11sasderok.jpg" class="img-fluid" style="width: 500px">
+                        <img src="/11sponsorlar-sasder.jpg" class="img-fluid" style="width: 500px">
                     </a>
                 </div>
             </div>
