@@ -177,7 +177,7 @@
 
                         <div class="tab-pane" id="sponsor">
                             <div class="text-center">
-                                <img src="/11sasderok.jpg" class="img-fluid" alt="Sponsorlar">
+                                <img src="/11sponsorlar-sasder.jpg" class="img-fluid" alt="Sponsorlar">
                             </div>
                         </div>
 
