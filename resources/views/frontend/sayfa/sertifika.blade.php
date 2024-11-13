@@ -126,7 +126,7 @@
             <div class="col-12 text-center">
                 <img src="/allianz-logo.png" alt="allianz" class="text-center">
 
-                <a class="btn btn-primary mt-3" href="http://e-certificate.arcadiastech.com/SASDER2023/KatilimciSertifika" target="_blank">10.Ulusal SASDER Kongresi Sertifikası için Tıklayınız</a>
+                <a class="btn btn-primary mt-3" href="https://e-certificate.arcadiastech.com/sasder2024/KatilimciSertifika" target="_blank">11.Ulusal SASDER Kongresi Sertifikası için Tıklayınız</a>
             </div>
         </div>
     </div>
