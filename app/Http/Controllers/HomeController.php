@@ -92,7 +92,7 @@ class HomeController extends Controller
 
     public function yonetimkurulu(){
 
-        $All =  Team::where('status', 1)->get();
+        $All =  Team::where('status', 1)->orderBy('rank')->get();
 
         SEOTools::setTitle('Sasder Yönetim Kurulu');
         SEOTools::setDescription('Sağlık ve sigortacılık alanında ürettiğimiz bilgi ve belgeleri paylaşarak tartışmak ve politika oluşturup kurumlara iletmeyi amaçlıyoruz');
