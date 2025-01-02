@@ -76,9 +76,6 @@
                 <div class="col-lg-3">
                     <h4 class="text-primary text-3 font-weight-bold mb-2">SASDER</h4>
                     <h3 class="mb-3">Kongrelerimiz</h3>
-{{--
-                    <p class="mb-5 mb-lg-0">Geçmiş dönemde yapılan kongrelerimiz</p>
---}}
                 </div>
                 <div class="col-lg-8">
                     <div class="carousel-half-full-width-wrapper carousel-half-full-width-right">
@@ -104,7 +101,7 @@
             </div>
         </div>
     </section>
-
+{{-- 
     <div class="modal show " tabindex="-1" role="dialog" id="kongredetay">
         <div class="modal-dialog" role="document" id="banner">
             <div class="modal-content">
@@ -115,18 +112,18 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
 @endsection
 
-
+{{-- 
  @section('customJS')
     <script type="text/javascript">
         $(window).on('load', function() {
             $('#kongredetay').modal('show');
         });
     </script>
-@endsection
+@endsection --}}
 
 
